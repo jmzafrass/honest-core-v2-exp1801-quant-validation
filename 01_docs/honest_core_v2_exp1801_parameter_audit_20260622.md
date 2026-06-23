@@ -2,7 +2,7 @@
 
 **Date:** 2026-06-22 · **Subject:** `ea/AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.mq5`
 **Method:** every constant assumed guilty until proven structural. No optimization, no tuning, no new EA.
-**Review lenses:** Pardo (walk-forward / parameter stability / plateau-vs-spike), Aronson (data-mining bias, OOS, market-logic falsifiability), Bailey-PBO (selection bias after N trials), White Reality-Check / Hansen SPA (false winners from snooping many alternatives).
+**Review lenses:** Pardo-style stability, Aronson-style data-mining skepticism, Bailey-PBO selection-bias framing, and White/Hansen multiple-testing framing. These are review frameworks here, not completed statistical tests.
 **Row-level source:** `docs/prereg/honest_core_v1_keep_strip_const_ledger_20260610.csv` (all 1,372 constants, line/name/value). This doc enriches it with category, market-concept, memorization-risk, framework-challenge, and action.
 
 ---
@@ -157,11 +157,11 @@ Implementation note: this conceptual minimal model is not identical to `CleanCor
 
 ---
 
-## What the frameworks say, in one line each
-- **Pardo:** the model is sharp-single-value-dependent (hours, prices) → fails walk-forward; only the ATR-relative core has plateau robustness.
-- **Aronson:** 466 hours × dozens of conditions = massive data-mining; no market reason any exact hour/price is special → reject the lookups.
-- **Bailey (PBO):** thousands of (hour×price×ATR×overshoot) cells tried; the survivors are selection-bias artifacts, not edge.
-- **White / Hansen:** each slot/hour is a tested alternative; the "best" ones are false winners with no superior predictive ability once the trial count is accounted for.
+## What the frameworks say, as review lenses
+- **Pardo-style lens:** exact hours/prices raise walk-forward fragility concerns; no valid walk-forward test was run.
+- **Aronson-style lens:** 466 hours × dozens of conditions create high data-mining risk; the market-logic burden remains high for any exact hour/price lookup.
+- **Bailey-PBO lens:** many selected hour/price/ATR/overshoot cells raise selection-bias risk; the later local PBO diagnostic does not deflate the full historical search process.
+- **White / Hansen lens:** each slot/hour can be viewed as one of many alternatives, but the full alternative universe was not recoverable as aligned return series; false-winner status is not statistically established by a valid White/Hansen test.
 
 **Bottom line (claim-labelled per Quant Addendum):** ~540 constants are memorized-coordinate
 *class* (`ESTABLISHED BY STATIC CODE ANALYSIS` for what they are; 2026-only price-gated rules + 466
