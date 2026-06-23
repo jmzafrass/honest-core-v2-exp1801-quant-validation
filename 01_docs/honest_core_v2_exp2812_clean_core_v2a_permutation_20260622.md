@@ -1,6 +1,8 @@
 # exp2812 Aronson Permutation Diagnostic
 
-Scope: dependence-preserving surrogate-price diagnostic for frozen CleanCoreV2A. This is **not MT5 ground truth** because the custom-symbol surrogate route is not viable on this setup; the test uses a compact Python port of CleanCoreV2A.
+Scope: dependence-preserving surrogate-price diagnostic for a Python reimplementation of CleanCoreV2A. This is **not MT5 ground truth** because the custom-symbol surrogate route is not viable on this setup; the test uses a compact Python port of CleanCoreV2A.
+
+Correct interpretation: the offline Python implementation materially diverged from MT5, including a sign reversal in the 2026 result. The permutation p-values therefore apply only to the Python surrogate implementation and cannot be used as evidence for or against CleanCoreV2A in MT5. This report is retained as an invalidated diagnostic, not as an evidence claim about the EA.
 
 ## Hash Note
 
@@ -37,7 +39,7 @@ Scope: dependence-preserving surrogate-price diagnostic for frozen CleanCoreV2A.
 
 ## MT5 Fidelity Caveat
 
-The Python port is close enough to exercise the same structural thesis but not close enough to replace MT5 scoring. Known gaps: M5-bar intrabar ordering for SL/TP/trail, fixed spread rather than true tick spread, no broker execution microstructure, and a bounded recent-swing cache for speed.
+The Python port is not close enough to support inference about the MT5 EA. Known gaps: M5-bar intrabar ordering for SL/TP/trail, fixed spread rather than true tick spread, no broker execution microstructure, and a bounded recent-swing cache for speed. The observed divergence is material: train profit is 1209.38 in the Python port versus 413.24 in the MT5 reference cell, and the 2026 sensitivity direction reverses versus the MT5 RT reference (Python positive, MT5 negative).
 
 MT5 reference cells for the selected V2A config:
 

@@ -2,6 +2,7 @@
   "ea": "ea/CleanCoreV2A.mq5",
   "ea_sha256": "67bdf0f66d04e30992fd34603d0f70af5f42ab7515bdb44a04fe7c0a1f4786cc",
   "experiment": "exp2812_clean_core_v2a_permutation",
+  "interpretation_correction": "The offline Python implementation materially diverged from MT5, including a sign reversal in the 2026 result. The permutation p-values apply only to the Python surrogate implementation and cannot be used as evidence for or against CleanCoreV2A in MT5.",
   "method": "offline_python_reimplementation_block_permutation_diagnostic",
   "mt5_custom_symbol_path": "not used; parked/not viable on this setup",
   "mt5_reference": {

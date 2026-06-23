@@ -13,9 +13,13 @@ Date: 2026-06-22
 - Ablation compile clean: True
 - A0 parity sample 2026-06-01..2026-06-21: exact=True, trades original/copy=82/82, profit original/copy=-183.47/-183.47
 
-A6 coordinate-only was not run: the coordinate layer is not a standalone entry engine; it gates, sizes, routes, and re-enters around the structural lifecycle.
+A6 coordinate-only was not run: the coordinate-linked and auxiliary production families are not a standalone entry engine; they gate, size, route, split, re-enter, and modify behavior around the lifecycle.
+
+Important interpretation correction: A4 and A5 are the same bundled intervention by construction and produce byte-identical daily series. A5's legacy label is `A5_core_only`, but it does not independently isolate a structural core and is not proven equivalent to CleanCoreV2A.
 
 ## Aggregate Results
+
+The aggregate numbers below are raw MT5 results and are unchanged. The correct reading is that the bundled guard intervention removes most fitted absolute PnL while also removing most trade activity. It is not a constants-only causal ablation.
 
 ### long_2017_2026_model1
 
@@ -93,4 +97,4 @@ Method: circular moving-block bootstrap on aligned daily net-PnL differences, bl
 - `InpAblDisableHourPins`: shared hour-window matcher returns pass-through, and dynamic hour block slots are disabled. Direct literal hour checks outside shared helpers are not rewritten unless they are inside a gated slot/source family.
 - `InpAblDisablePricePins`: absolute-price source families and price-coordinate portfolio routers are disabled. Mechanical bid/ask execution and structural price math remain intact.
 - `InpAblDisableSlots`: Exp1025/1050/1145/1160/1162/1183/1192/1259/1280-style basket/slot families cannot admit entries or assign lots.
-- `InpAblCoreOnly`: disables the coordinate families plus invalidated re-entry, selective lots, split/add-on/reversal/support-reclaim side engines, leaving the structural sweep-reclaim-displacement-FVG-retest lifecycle.
+- `InpAblCoreOnly`: disables the coordinate families plus invalidated re-entry, selective lots, split/add-on/reversal/support-reclaim side engines. It should be treated as the same bundled guard intervention as A4, not as an independently isolated structural core.

@@ -37,7 +37,7 @@ By **disposition** (existing ledger action → this audit's 5-way class):
 | REVIEW | 82 | Unclassified |
 | STRIP_OR_NORMALIZE | 27 | Likely memorized (price) |
 
-**Headline:** ~**540 constants (370+143+27)** are memorized-coordinate class (clock/slot/price); **466** of the total are exact hour-of-day pins. Only a **small core (~30–50)** is genuinely structural (ATR-relative SMC mechanics). The model is a coordinate lookup table wrapped around a small real SMC engine.
+**Headline:** ~**540 constants (370+143+27)** are memorized-coordinate class (clock/slot/price); **466** of the total are exact hour-of-day pins. Only a **small conceptual SMC thesis set (~30–50)** is structurally defensible (ATR-relative SMC mechanics). This static audit identifies memorization risk and rule-family complexity; it does not by itself prove the causal share of predictive edge attributable to memorized constants.
 
 ---
 
@@ -151,8 +151,9 @@ The fewest defensible, ATR-relative parameters that express the SMC thesis with 
 7. **SL**: anchored at the sweep extreme ± `0.14·ATR`.
 8. **Exit**: RR target (multiple) and/or ATR-relative trail; broad time-stop.
 
-**Parameter budget: ~12–18, all ATR-relative or unitless. ZERO hour pins, price pins, slot/cluster cells, or fixed-pip distances.**
-> NOTE: this is essentially `CleanCoreV2A`, already built and audited clean. Its honest real-tick result (PF 0.35 on M5) is the *true* forward economics of this structure once the memorized coordinate layer is removed — i.e., the audit's verdict is empirically confirmed: the defensible core is small and, on M5, thin.
+**Conceptual parameter budget: ~12–18, mostly ATR-relative or unitless. ZERO hour pins, price pins, or slot/cluster cells.**
+
+Implementation note: this conceptual minimal model is not identical to `CleanCoreV2A`. CleanCoreV2A contains fixed-pip equality tolerance, fixed-pip trail activation, fixed-pip trail distance, and a maximum overshoot of 2.5 ATR. CleanCoreV2A produced approximately PF 0.35 in an MT5 research-contaminated post-selection local holdout. This is materially adverse evidence for that implementation, but it is not pristine forward evidence and should not be generalized to the entire SMC concept.
 
 ---
 
@@ -162,11 +163,12 @@ The fewest defensible, ATR-relative parameters that express the SMC thesis with 
 - **Bailey (PBO):** thousands of (hour×price×ATR×overshoot) cells tried; the survivors are selection-bias artifacts, not edge.
 - **White / Hansen:** each slot/hour is a tested alternative; the "best" ones are false winners with no superior predictive ability once the trial count is accounted for.
 
-**Bottom line (claim-labelled per Quant Addendum Phase 0):** ~540 constants are memorized-coordinate
+**Bottom line (claim-labelled per Quant Addendum):** ~540 constants are memorized-coordinate
 *class* (`ESTABLISHED BY STATIC CODE ANALYSIS` for what they are; 2026-only price-gated rules + 466
-hour pins). That they *carry most of the headline backtest* is **STRONG OVERFITTING RISK** — the causal
-share is **QUANTITATIVE TEST REQUIRED** (controlled ablation, Quant Addendum Phase 2), not yet proven.
-The structural core is ~12–18 ATR-relative parameters (model H); CleanCoreV2A's M5 real-tick PF 0.35 is
-**EMPIRICALLY SUPPORTED** as that EA's OOS result, but "thin/true forward economics of the *concept*"
-remains **QUANTITATIVE TEST REQUIRED** (permutation, Phase 5; single OOS sample).
+hour pins). The controlled ablation later showed that exp1801's fitted absolute PnL is heavily
+dependent on a bundled collection of coordinate-linked and auxiliary production engines. It did not
+cleanly isolate the causal contribution of memorized constants, because the toggles remove whole
+behavior families and A4 and A5 are the same intervention by construction. CleanCoreV2A's MT5 PF of
+approximately 0.35 in a research-contaminated post-selection local holdout is adverse evidence for
+that specific implementation, not definitive proof about the broader SMC thesis.
 → See `honest_core_v2_exp1801_quant_validation_addendum_20260622.md` for the data-gated test plan.

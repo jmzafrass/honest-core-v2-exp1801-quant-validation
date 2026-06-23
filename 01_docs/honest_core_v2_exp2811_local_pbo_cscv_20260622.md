@@ -4,6 +4,8 @@ Scope: **LOCAL** PBO/CSCV on the two CleanCoreV2A Phase-2 selection grids only. 
 
 Observation unit: daily closed-deal net PnL from the MT5 HTML deal ledger. No-trade days are zero-filled and all configs share the same calendar-day index. Because CleanCoreV2A does not emit the standard SMC equity CSV, the CSCV selection statistic uses closed-balance daily PnL and closed-balance DD, not tick-level intra-trade equity DD.
 
+Interpretation: the local PBO result is sensitive to S, mixes sequential selection stages, contains duplicate configurations, and covers only 18-20 configurations. It is inconclusive and cannot deflate the full research process.
+
 ## exp2800
 
 - N configs: `20`
@@ -89,6 +91,9 @@ Observation unit: daily closed-deal net PnL from the MT5 HTML deal ledger. No-tr
 ## Limitations
 
 - This is local to 18-20 configs and does not deflate the thousands of broader historical experiments.
+- S=8 is the declared primary result; S=6 and S=10 are sensitivity checks.
+- exp2802 contains three duplicate configurations with identical aggregate metrics: `trail_d030_a045`, `target_rr_150_at_selected_exit`, and `target_rr_250_at_selected_exit`.
+- exp2802 also mixes exit-stage and structural-stage selections, so it is not a single clean simultaneous model-selection family.
 - The observation count is daily, but trades are sparse; many days are zero across all configs.
 - HTML deal-ledger daily PnL is enough for CSCV rank testing, but it is not an intra-trade drawdown oracle.
 - PBO is diagnostic only; it is not used here to pick or re-pick any CleanCore config.

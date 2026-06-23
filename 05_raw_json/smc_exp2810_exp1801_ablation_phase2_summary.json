@@ -578,6 +578,11 @@
     "mt5_verified": true
   },
   "id": "exp_2810",
+  "interpretation_correction": {
+    "a4_a5": "A4 and A5 are the same bundled intervention by construction and produce byte-identical daily series. They do not independently isolate a structural core, and A5 is not proven equivalent to CleanCoreV2A.",
+    "pnl_attribution": "The bundled guard intervention removed approximately 93-96% of fitted absolute PnL while also removing approximately 95-96% of trade activity. This establishes dependence of fitted PnL volume on the bundled coordinate and auxiliary engines, not the causal share of predictive edge attributable to memorized constants.",
+    "toggle_semantics": "The toggles disable complete rule families, including coordinate, structural, sizing, re-entry, add-on, reversal, split, and support-reclaim behavior. Some direct hour checks were not removed. This is not a constants-only ablation."
+  },
   "parity": {
     "columns_compared": [
       "datetime",
@@ -4625,7 +4630,7 @@
   "surprise": "A0 parity passed; coordinate attribution measured with switch-gated copy and paired daily block bootstrap.",
   "variants": {
     "A0_full_copy": {
-      "label": "A0 all coordinate layers ON",
+      "label": "A0 all bundled production engines ON",
       "overrides": {
         "InpAblCoreOnly": false,
         "InpAblDisableHourPins": false,
@@ -4652,7 +4657,7 @@
       }
     },
     "A4_no_coordinate_layers": {
-      "label": "A4 disable hour+price+slot coordinate layers",
+      "label": "A4 bundled guard: disable shared hour, price, and slot families plus associated auxiliary behavior",
       "overrides": {
         "InpAblDisableHourPins": true,
         "InpAblDisablePricePins": true,
@@ -4660,7 +4665,7 @@
       }
     },
     "A5_core_only": {
-      "label": "A5 structural core only",
+      "label": "A5 bundled guard legacy label; byte-identical to A4, not an isolated structural core",
       "overrides": {
         "InpAblCoreOnly": true
       }
