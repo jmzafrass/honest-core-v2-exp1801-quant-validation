@@ -1,5 +1,43 @@
 # Quantitative Validation Addendum — exp1801 (Phases 0–1)
 
+> ## ⚠️ INDEPENDENT AUDIT CORRECTIONS (2026-06-23) — the conclusions below were OVERSTATED
+> An independent audit (verified in-data) found no fabrication but material over-claiming. Corrections,
+> all confirmed:
+> 1. **A4 == A5 (byte-identical daily series, both windows).** The disable-flags and `InpAblCoreOnly`
+>    route through the same guard, which *also* disables re-entry/selective/split/add-on/reversal/
+>    support-reclaim engines. So A5 is **NOT** an independently-isolated "structural core" — it's the
+>    same bundled intervention. A5 ≠ proven-equal to CleanCoreV2A.
+> 2. **"Coordinate layer carries 93–96%" is PnL VOLUME, not edge.** The intervention removed ~95%
+>    (long) / ~96.5% (RT) of **trades**; the residual A5 has **higher per-trade expectancy** (long
+>    24.73 vs 15.82; RT 25.24 vs 24.34). Defensible wording: *the bundled guard removes 93–96% of
+>    fitted absolute PnL while removing 95–96% of trade activity.* It does **NOT** prove memorized
+>    constants caused 93–96% of the predictive **edge**.
+> 3. **Toggles are coarse:** they disable whole rule families (incl. their structural + auxiliary
+>    logic), not only coordinate predicates; some literal hour checks outside the shared matcher were
+>    not removed. So this is not a clean "memorized-constants-only" ablation.
+> 4. **PBO weaker / inconsistent:** report says S=8 primary, addendum cited S=10; exp2802 PBO is
+>    S-dependent (0% @S6 / 27.1% @S8 / 25.4% @S10) → "≈coin-flip" is too strong. exp2802 also mixes
+>    exit-stage + structural-stage selection and contains 3 identical configs (target_rr variants =
+>    baseline, RR-tilt inert).
+> 5. **Permutation is NOT valid evidence about the MT5 EA.** The offline Python port materially
+>    diverges from MT5 (2026 **sign reverses**: Python +899 vs MT5 −329; train +1,209 vs +413), 288-bar
+>    blocks preserve whole setup→outcome episodes, and the bar-sim can use same-bar high/low for
+>    trail-activate-then-stop without tick order. p-values do **not** transfer to CleanCoreV2A. Claim #9
+>    rests on the *actual MT5 OOS PF 0.35*, not this permutation.
+> 6. **Minimal-model description ≠ implementation** (audit said "no fixed-pip"; CleanCoreV2A uses 20-pip
+>    tol, 45/30-pip trail, 2.5-ATR max overshoot). **Repo is an evidence bundle, NOT standalone
+>    reproducible** (scripts need parent-project modules/EAs/data). **2026 = research-contaminated local
+>    holdout, NOT pristine true OOS.**
+>
+> **CORRECTED BOTTOM LINE:** exp1801's fitted absolute PnL is heavily dependent on a *bundled* collection
+> of coordinate-linked **and** auxiliary production engines. This experiment does **not** cleanly isolate
+> the causal contribution of memorized *constants*, does **not** prove A5 = CleanCoreV2A, and does **not**
+> establish via permutation that the MT5 clean core lacks predictive value. (What still stands, on MT5:
+> the model leans heavily on the bundled engines, and the clean core trades far less; the clean core's
+> *forward* marginality is evidenced by its real MT5 OOS PF 0.35 — not by the permutation.)
+> (Not fabricating White/Hansen + true-WFA was confirmed correct.)
+
+
 **Date:** 2026-06-22 · **Companion to:** `honest_core_v2_exp1801_parameter_audit_20260622.md` (Phase 1 static forensics)
 **Status:** COMPLETE. Phase 0 (claim correction), Phase 1 (data gate), Phase 2 (ablation, audit
 PASS), Phase 3 (LOCAL PBO), Phase 5 (permutation diagnostic) all RUN + audited. Phases 4-full and
