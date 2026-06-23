@@ -1,0 +1,4681 @@
+{
+  "bootstrap": {
+    "long_2017_2026_model1": {
+      "A0_full_copy__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_gt_0": 0.0,
+        "point": 0.0,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A0_full_copy__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          74279.81475,
+          149820.61175
+        ],
+        "p_gt_0": 1.0,
+        "point": 109251.93,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A1_no_hourpins__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -161551.685,
+          -81876.7305
+        ],
+        "p_gt_0": 0.0,
+        "point": -119300.65,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A1_no_hourpins__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          -14470.82575,
+          -6516.52775
+        ],
+        "p_gt_0": 0.0,
+        "point": -10048.72,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A2_no_pricepins__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -62589.689,
+          -33952.644
+        ],
+        "p_gt_0": 0.0,
+        "point": -47141.23,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A2_no_pricepins__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          36314.41375,
+          92031.45225
+        ],
+        "p_gt_0": 1.0,
+        "point": 62110.7,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A3_no_slots__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -79193.3285,
+          -28291.2385
+        ],
+        "p_gt_0": 0.0,
+        "point": -52389.57,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A3_no_slots__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          41171.372,
+          74995.79
+        ],
+        "p_gt_0": 1.0,
+        "point": 56862.36,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A4_no_coordinate_layers__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -149007.69525,
+          -73621.66075
+        ],
+        "p_gt_0": 0.0,
+        "point": -109251.93,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A4_no_coordinate_layers__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_gt_0": 0.0,
+        "point": 0.0,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A5_core_only__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -149007.69525,
+          -73621.66075
+        ],
+        "p_gt_0": 0.0,
+        "point": -109251.93,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A5_core_only__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_gt_0": 0.0,
+        "point": 0.0,
+        "reps": 5000,
+        "seed": 2815
+      }
+    },
+    "rt_2026_jun21_model4": {
+      "A0_full_copy__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_gt_0": 0.0,
+        "point": 0.0,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A0_full_copy__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          23620.129,
+          68234.9625
+        ],
+        "p_gt_0": 1.0,
+        "point": 45035.38,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A1_no_hourpins__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -8741.378,
+          -2741.77525
+        ],
+        "p_gt_0": 0.0,
+        "point": -5677.68,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A1_no_hourpins__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          18753.0705,
+          62094.688
+        ],
+        "p_gt_0": 1.0,
+        "point": 39357.7,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A2_no_pricepins__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -29433.886,
+          -7585.31975
+        ],
+        "p_gt_0": 0.0,
+        "point": -17527.34,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A2_no_pricepins__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          14086.342,
+          42183.04575
+        ],
+        "p_gt_0": 1.0,
+        "point": 27508.04,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A3_no_slots__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -41439.8055,
+          -12308.373
+        ],
+        "p_gt_0": 0.0,
+        "point": -25903.05,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A3_no_slots__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          10459.95025,
+          28685.669
+        ],
+        "p_gt_0": 1.0,
+        "point": 19132.33,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A4_no_coordinate_layers__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -68160.2475,
+          -24087.69275
+        ],
+        "p_gt_0": 0.0,
+        "point": -45035.38,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A4_no_coordinate_layers__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_gt_0": 0.0,
+        "point": 0.0,
+        "reps": 5000,
+        "seed": 2815
+      },
+      "A5_core_only__vs__A0_full_copy": {
+        "block_len_days": 10,
+        "ci95": [
+          -68160.2475,
+          -24087.69275
+        ],
+        "p_gt_0": 0.0,
+        "point": -45035.38,
+        "reps": 5000,
+        "seed": 2810
+      },
+      "A5_core_only__vs__A5_core_only": {
+        "block_len_days": 10,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "p_gt_0": 0.0,
+        "point": 0.0,
+        "reps": 5000,
+        "seed": 2815
+      }
+    }
+  },
+  "build": {
+    "a6_coordinate_only": "not meaningful: coordinate families gate/size/re-enter around structural lifecycle and do not form standalone entries.",
+    "ablation": "ea/AutoResearchSMCSweepFVGWindowExp1801_ablation.mq5",
+    "ablation_sha256": "3fb5a58f02b45b11353ca535d3c8ca3dbbb9d40e771036113f1b7735d606ef3d",
+    "input_count": 14,
+    "original": "ea/AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.mq5",
+    "original_sha256": "3747e95b7b831176bd1eb514ce4dc8e552b490a8911d89874129a0b12445dd20",
+    "switches": [
+      "InpAblDisableHourPins",
+      "InpAblDisablePricePins",
+      "InpAblDisableSlots",
+      "InpAblCoreOnly"
+    ]
+  },
+  "compile": {
+    "ablation": {
+      "clean": true,
+      "returncode": 0,
+      "source": "ea/AutoResearchSMCSweepFVGWindowExp1801_ablation.mq5",
+      "tail": "Target EA source: /Users/juanma/forex-autoresearch/ea/AutoResearchSMCSweepFVGWindowExp1801_ablation.mq5\nTarget EA in MT5: /Users/juanma/Library/Application Support/net.metaquotes.wine.metatrader5/drive_c/Program Files/MetaTrader 5/MQL5/Experts/AutoResearchSMCSweepFVGWindowExp1801_ablation.mq5\nExpected .ex5: /Users/juanma/Library/Application Support/net.metaquotes.wine.metatrader5/drive_c/Program Files/MetaTrader 5/MQL5/Experts/AutoResearchSMCSweepFVGWindowExp1801_ablation.ex5\nCompiling via CLI /compile: C:\\Program Files\\MetaTrader 5\\MQL5\\Experts\\AutoResearchSMCSweepFVGWindowExp1801_ablation.mq5\nResult: 0 errors, 0 warnings, 6841 ms elapsed, cpu='X64 Regular'\nCompiled .ex5: /Users/juanma/Library/Application Support/net.metaquotes.wine.metatrader5/drive_c/Program Files/MetaTrader 5/MQL5/Experts/AutoResearchSMCSweepFVGWindowExp1801_ablation.ex5 Jun 22 18:47:42 2026 (504248 bytes)\nCompile log tail:\n : information: generating code 93%\n : information: generating code 95%\n : information: generating code 100%\n : information: code generated\nResult: 0 errors, 0 warnings, 6841 ms elapsed, cpu='X64 Regular'\nSUCCESS: AutoResearchSMCSweepFVGWindowExp1801_ablation.mq5 compiled.\n\n"
+    },
+    "original": {
+      "clean": true,
+      "returncode": 0,
+      "source": "ea/AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.mq5",
+      "tail": "Target EA source: /Users/juanma/forex-autoresearch/ea/AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.mq5\nTarget EA in MT5: /Users/juanma/Library/Application Support/net.metaquotes.wine.metatrader5/drive_c/Program Files/MetaTrader 5/MQL5/Experts/AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.mq5\nExpected .ex5: /Users/juanma/Library/Application Support/net.metaquotes.wine.metatrader5/drive_c/Program Files/MetaTrader 5/MQL5/Experts/AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.ex5\nCompiling via CLI /compile: C:\\Program Files\\MetaTrader 5\\MQL5\\Experts\\AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.mq5\nResult: 0 errors, 0 warnings, 6787 ms elapsed, cpu='X64 Regular'\nCompiled .ex5: /Users/juanma/Library/Application Support/net.metaquotes.wine.metatrader5/drive_c/Program Files/MetaTrader 5/MQL5/Experts/AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.ex5 Jun 22 18:47:34 2026 (501378 bytes)\nCompile log tail:\n : information: generating code 93%\n : information: generating code 95%\n : information: generating code 100%\n : information: code generated\nResult: 0 errors, 0 warnings, 6787 ms elapsed, cpu='X64 Regular'\nSUCCESS: AutoResearchSMCSweepFVGWindowExp1801_current_margin_final_repair.mq5 compiled.\n\n"
+    }
+  },
+  "deltas": {
+    "long_2017_2026_model1": {
+      "A0_full_copy": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": 0.0,
+          "expectancy_aed": 0.0,
+          "intra_dd_pct": 0.0,
+          "max_dd_pct": 0.0,
+          "pf": 0.0,
+          "profit_aed": 0.0,
+          "return_per_dd": 0.0,
+          "trades": 0.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 0.876175,
+          "expectancy_aed": -8.915756,
+          "intra_dd_pct": -2.393623,
+          "max_dd_pct": -3.304011,
+          "pf": 0.894267,
+          "profit_aed": 109251.93,
+          "return_per_dd": 22656.853826,
+          "trades": 7105.0
+        }
+      },
+      "A1_no_hourpins": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -3.234726,
+          "expectancy_aed": -16.115571,
+          "intra_dd_pct": 3.551516,
+          "max_dd_pct": 81.530442,
+          "pf": -5.010168,
+          "profit_aed": -119300.65,
+          "return_per_dd": -23723.951831,
+          "trades": -2939.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": -2.358551,
+          "expectancy_aed": -25.031327,
+          "intra_dd_pct": 1.157893,
+          "max_dd_pct": 78.226431,
+          "pf": -4.115901,
+          "profit_aed": -10048.72,
+          "return_per_dd": -1067.098005,
+          "trades": 4166.0
+        }
+      },
+      "A2_no_pricepins": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -0.638117,
+          "expectancy_aed": -0.922148,
+          "intra_dd_pct": 0.062736,
+          "max_dd_pct": 5.178917,
+          "pf": -0.054298,
+          "profit_aed": -47141.23,
+          "return_per_dd": -16734.325928,
+          "trades": -2703.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 0.238058,
+          "expectancy_aed": -9.837904,
+          "intra_dd_pct": -2.330887,
+          "max_dd_pct": 1.874906,
+          "pf": 0.839969,
+          "profit_aed": 62110.7,
+          "return_per_dd": 5922.527898,
+          "trades": 4402.0
+        }
+      },
+      "A3_no_slots": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": 0.329806,
+          "expectancy_aed": -3.60827,
+          "intra_dd_pct": -0.331771,
+          "max_dd_pct": 0.324613,
+          "pf": -0.431866,
+          "profit_aed": -52389.57,
+          "return_per_dd": -11336.93604,
+          "trades": -2087.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 1.205981,
+          "expectancy_aed": -12.524026,
+          "intra_dd_pct": -2.725394,
+          "max_dd_pct": -2.979398,
+          "pf": 0.462401,
+          "profit_aed": 56862.36,
+          "return_per_dd": 11319.917786,
+          "trades": 5018.0
+        }
+      },
+      "A4_no_coordinate_layers": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -0.876175,
+          "expectancy_aed": 8.915756,
+          "intra_dd_pct": 2.393623,
+          "max_dd_pct": 3.304011,
+          "pf": -0.894267,
+          "profit_aed": -109251.93,
+          "return_per_dd": -22656.853826,
+          "trades": -7105.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 0.0,
+          "expectancy_aed": 0.0,
+          "intra_dd_pct": 0.0,
+          "max_dd_pct": 0.0,
+          "pf": 0.0,
+          "profit_aed": 0.0,
+          "return_per_dd": 0.0,
+          "trades": 0.0
+        }
+      },
+      "A5_core_only": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -0.876175,
+          "expectancy_aed": 8.915756,
+          "intra_dd_pct": 2.393623,
+          "max_dd_pct": 3.304011,
+          "pf": -0.894267,
+          "profit_aed": -109251.93,
+          "return_per_dd": -22656.853826,
+          "trades": -7105.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 0.0,
+          "expectancy_aed": 0.0,
+          "intra_dd_pct": 0.0,
+          "max_dd_pct": 0.0,
+          "pf": 0.0,
+          "profit_aed": 0.0,
+          "return_per_dd": 0.0,
+          "trades": 0.0
+        }
+      }
+    },
+    "rt_2026_jun21_model4": {
+      "A0_full_copy": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": 0.0,
+          "expectancy_aed": 0.0,
+          "intra_dd_pct": 0.0,
+          "max_dd_pct": 0.0,
+          "pf": 0.0,
+          "profit_aed": 0.0,
+          "return_per_dd": 0.0,
+          "trades": 0.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 3.815368,
+          "expectancy_aed": -0.906521,
+          "intra_dd_pct": 0.226088,
+          "max_dd_pct": -0.481987,
+          "pf": -0.413277,
+          "profit_aed": 45035.38,
+          "return_per_dd": 7525.30786,
+          "trades": 1853.0
+        }
+      },
+      "A1_no_hourpins": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -0.671411,
+          "expectancy_aed": -10.000731,
+          "intra_dd_pct": -0.107341,
+          "max_dd_pct": 0.711081,
+          "pf": -5.229665,
+          "profit_aed": -5677.68,
+          "return_per_dd": -1671.053632,
+          "trades": 944.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 3.143957,
+          "expectancy_aed": -10.907252,
+          "intra_dd_pct": 0.118747,
+          "max_dd_pct": 0.229094,
+          "pf": -5.642942,
+          "profit_aed": 39357.7,
+          "return_per_dd": 5854.254228,
+          "trades": 2797.0
+        }
+      },
+      "A2_no_pricepins": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -0.716486,
+          "expectancy_aed": -4.251654,
+          "intra_dd_pct": 0.004582,
+          "max_dd_pct": 0.663568,
+          "pf": -1.806948,
+          "profit_aed": -17527.34,
+          "return_per_dd": -3405.313523,
+          "trades": -466.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 3.098882,
+          "expectancy_aed": -5.158175,
+          "intra_dd_pct": 0.23067,
+          "max_dd_pct": 0.181581,
+          "pf": -2.220225,
+          "profit_aed": 27508.04,
+          "return_per_dd": 4119.994337,
+          "trades": 1387.0
+        }
+      },
+      "A3_no_slots": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -0.419662,
+          "expectancy_aed": -5.837827,
+          "intra_dd_pct": 0.171982,
+          "max_dd_pct": 1.710614,
+          "pf": -1.928897,
+          "profit_aed": -25903.05,
+          "return_per_dd": -5086.666286,
+          "trades": -794.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 3.395706,
+          "expectancy_aed": -6.744348,
+          "intra_dd_pct": 0.39807,
+          "max_dd_pct": 1.228627,
+          "pf": -2.342174,
+          "profit_aed": 19132.33,
+          "return_per_dd": 2438.641574,
+          "trades": 1059.0
+        }
+      },
+      "A4_no_coordinate_layers": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -3.815368,
+          "expectancy_aed": 0.906521,
+          "intra_dd_pct": -0.226088,
+          "max_dd_pct": 0.481987,
+          "pf": 0.413277,
+          "profit_aed": -45035.38,
+          "return_per_dd": -7525.30786,
+          "trades": -1853.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 0.0,
+          "expectancy_aed": 0.0,
+          "intra_dd_pct": 0.0,
+          "max_dd_pct": 0.0,
+          "pf": 0.0,
+          "profit_aed": 0.0,
+          "return_per_dd": 0.0,
+          "trades": 0.0
+        }
+      },
+      "A5_core_only": {
+        "vs_A0_full_copy": {
+          "daily_sharpe_aed": -3.815368,
+          "expectancy_aed": 0.906521,
+          "intra_dd_pct": -0.226088,
+          "max_dd_pct": 0.481987,
+          "pf": 0.413277,
+          "profit_aed": -45035.38,
+          "return_per_dd": -7525.30786,
+          "trades": -1853.0
+        },
+        "vs_A5_core_only": {
+          "daily_sharpe_aed": 0.0,
+          "expectancy_aed": 0.0,
+          "intra_dd_pct": 0.0,
+          "max_dd_pct": 0.0,
+          "pf": 0.0,
+          "profit_aed": 0.0,
+          "return_per_dd": 0.0,
+          "trades": 0.0
+        }
+      }
+    }
+  },
+  "deposit": 1600,
+  "headline_metrics": {
+    "a0_long_profit": 117958.38,
+    "a0_rt_profit": 46751.96,
+    "a4_long_delta_vs_a0": -109251.93,
+    "a4_rt_delta_vs_a0": -45035.38,
+    "a5_long_delta_vs_a0": -109251.93,
+    "a5_rt_delta_vs_a0": -45035.38,
+    "mt5_verified": true
+  },
+  "id": "exp_2810",
+  "parity": {
+    "columns_compared": [
+      "datetime",
+      "entry_time",
+      "direction",
+      "entry_price",
+      "exit_price",
+      "profit",
+      "actual_lot",
+      "lot_source"
+    ],
+    "copy_profit": -183.47,
+    "copy_summary": "experiments/mt5_native/smc_exp2810_A0_copy_parity_sample_summary.json",
+    "copy_trades": 82,
+    "max_profit_diff": 0.0,
+    "mismatch_index": null,
+    "original_profit": -183.47,
+    "original_summary": "experiments/mt5_native/smc_exp2810_original_parity_sample_summary.json",
+    "original_trades": 82,
+    "trade_for_trade_exact": true
+  },
+  "report": "docs/honest_core_v2_exp2810_exp1801_ablation_phase2_20260622.md",
+  "results": {
+    "long_2017_2026_model1": {
+      "A0_full_copy": {
+        "by_month": {
+          "2017-04": {
+            "pf": null,
+            "profit_aed": 54.07,
+            "trades": 8
+          },
+          "2017-05": {
+            "pf": 1.104212,
+            "profit_aed": 2.87,
+            "trades": 8
+          },
+          "2017-06": {
+            "pf": 0.804107,
+            "profit_aed": -4.77,
+            "trades": 25
+          },
+          "2017-07": {
+            "pf": 2.853221,
+            "profit_aed": 66.16,
+            "trades": 37
+          },
+          "2017-08": {
+            "pf": 18.522023,
+            "profit_aed": 107.41,
+            "trades": 20
+          },
+          "2017-09": {
+            "pf": 2.28497,
+            "profit_aed": 17.27,
+            "trades": 28
+          },
+          "2017-10": {
+            "pf": 3.136898,
+            "profit_aed": 59.94,
+            "trades": 23
+          },
+          "2017-11": {
+            "pf": 1.653199,
+            "profit_aed": 5.82,
+            "trades": 13
+          },
+          "2017-12": {
+            "pf": null,
+            "profit_aed": 22.82,
+            "trades": 11
+          },
+          "2018-01": {
+            "pf": 0.511036,
+            "profit_aed": -10.19,
+            "trades": 19
+          },
+          "2018-02": {
+            "pf": 25.119048,
+            "profit_aed": 162.08,
+            "trades": 26
+          },
+          "2018-03": {
+            "pf": null,
+            "profit_aed": 4.25,
+            "trades": 6
+          },
+          "2018-04": {
+            "pf": 5.301802,
+            "profit_aed": 57.3,
+            "trades": 27
+          },
+          "2018-05": {
+            "pf": null,
+            "profit_aed": 69.63,
+            "trades": 23
+          },
+          "2018-06": {
+            "pf": 2.700824,
+            "profit_aed": 14.44,
+            "trades": 21
+          },
+          "2018-07": {
+            "pf": 0.645846,
+            "profit_aed": -18.03,
+            "trades": 26
+          },
+          "2018-08": {
+            "pf": 2.119666,
+            "profit_aed": 37.52,
+            "trades": 35
+          },
+          "2018-09": {
+            "pf": 8.887612,
+            "profit_aed": 61.76,
+            "trades": 13
+          },
+          "2018-10": {
+            "pf": 1.922295,
+            "profit_aed": 25.4,
+            "trades": 18
+          },
+          "2018-11": {
+            "pf": 28.427746,
+            "profit_aed": 94.9,
+            "trades": 16
+          },
+          "2018-12": {
+            "pf": 1.292013,
+            "profit_aed": 3.51,
+            "trades": 9
+          },
+          "2019-01": {
+            "pf": 0.337789,
+            "profit_aed": -42.11,
+            "trades": 13
+          },
+          "2019-02": {
+            "pf": null,
+            "profit_aed": 61.19,
+            "trades": 17
+          },
+          "2019-03": {
+            "pf": 3.394635,
+            "profit_aed": 61.59,
+            "trades": 17
+          },
+          "2019-04": {
+            "pf": 6.130301,
+            "profit_aed": 100.4,
+            "trades": 23
+          },
+          "2019-05": {
+            "pf": 1.586314,
+            "profit_aed": 15.08,
+            "trades": 20
+          },
+          "2019-06": {
+            "pf": 13.901848,
+            "profit_aed": 111.73,
+            "trades": 23
+          },
+          "2019-07": {
+            "pf": 5.259463,
+            "profit_aed": 69.77,
+            "trades": 20
+          },
+          "2019-08": {
+            "pf": 29.033939,
+            "profit_aed": 231.28,
+            "trades": 45
+          },
+          "2019-09": {
+            "pf": 0.367808,
+            "profit_aed": -45.05,
+            "trades": 32
+          },
+          "2019-10": {
+            "pf": null,
+            "profit_aed": 165.02,
+            "trades": 20
+          },
+          "2019-11": {
+            "pf": 12.948174,
+            "profit_aed": 101.44,
+            "trades": 22
+          },
+          "2019-12": {
+            "pf": null,
+            "profit_aed": 22.67,
+            "trades": 4
+          },
+          "2020-01": {
+            "pf": null,
+            "profit_aed": 445.26,
+            "trades": 44
+          },
+          "2020-02": {
+            "pf": 7.90303,
+            "profit_aed": 56.95,
+            "trades": 18
+          },
+          "2020-03": {
+            "pf": 5.866808,
+            "profit_aed": 482.69,
+            "trades": 50
+          },
+          "2020-04": {
+            "pf": 1.713967,
+            "profit_aed": 172.88,
+            "trades": 86
+          },
+          "2020-05": {
+            "pf": 5.657507,
+            "profit_aed": 745.76,
+            "trades": 65
+          },
+          "2020-06": {
+            "pf": 17.498886,
+            "profit_aed": 1110.87,
+            "trades": 65
+          },
+          "2020-07": {
+            "pf": 23.888755,
+            "profit_aed": 1897.02,
+            "trades": 62
+          },
+          "2020-08": {
+            "pf": 9.917744,
+            "profit_aed": 648.32,
+            "trades": 67
+          },
+          "2020-09": {
+            "pf": 2.967018,
+            "profit_aed": 712.69,
+            "trades": 71
+          },
+          "2020-10": {
+            "pf": 5.316109,
+            "profit_aed": 939.66,
+            "trades": 66
+          },
+          "2020-11": {
+            "pf": 24.326092,
+            "profit_aed": 955.67,
+            "trades": 39
+          },
+          "2020-12": {
+            "pf": 0.406752,
+            "profit_aed": -284.51,
+            "trades": 30
+          },
+          "2021-01": {
+            "pf": 2.848727,
+            "profit_aed": 323.25,
+            "trades": 61
+          },
+          "2021-02": {
+            "pf": 4.66581,
+            "profit_aed": 799.11,
+            "trades": 84
+          },
+          "2021-03": {
+            "pf": 3.009434,
+            "profit_aed": 543.13,
+            "trades": 87
+          },
+          "2021-04": {
+            "pf": 3.225074,
+            "profit_aed": 421.34,
+            "trades": 77
+          },
+          "2021-05": {
+            "pf": 7.906277,
+            "profit_aed": 961.63,
+            "trades": 97
+          },
+          "2021-06": {
+            "pf": 1.238783,
+            "profit_aed": 100.37,
+            "trades": 45
+          },
+          "2021-07": {
+            "pf": 3.007731,
+            "profit_aed": 327.24,
+            "trades": 42
+          },
+          "2021-08": {
+            "pf": 2.790159,
+            "profit_aed": 1166.7,
+            "trades": 76
+          },
+          "2021-09": {
+            "pf": 1.639989,
+            "profit_aed": 309.23,
+            "trades": 75
+          },
+          "2021-10": {
+            "pf": 41.574378,
+            "profit_aed": 962.83,
+            "trades": 77
+          },
+          "2021-11": {
+            "pf": 2.691549,
+            "profit_aed": 540.23,
+            "trades": 76
+          },
+          "2021-12": {
+            "pf": 8.72334,
+            "profit_aed": 433.82,
+            "trades": 53
+          },
+          "2022-01": {
+            "pf": 1.443116,
+            "profit_aed": 151.94,
+            "trades": 66
+          },
+          "2022-02": {
+            "pf": 8.387473,
+            "profit_aed": 626.31,
+            "trades": 33
+          },
+          "2022-03": {
+            "pf": 2.040936,
+            "profit_aed": 103.24,
+            "trades": 57
+          },
+          "2022-04": {
+            "pf": 2.074933,
+            "profit_aed": 248.46,
+            "trades": 67
+          },
+          "2022-05": {
+            "pf": 13.831615,
+            "profit_aed": 821.48,
+            "trades": 55
+          },
+          "2022-06": {
+            "pf": 4.889252,
+            "profit_aed": 1238.26,
+            "trades": 107
+          },
+          "2022-07": {
+            "pf": 14.906609,
+            "profit_aed": 1660.31,
+            "trades": 74
+          },
+          "2022-08": {
+            "pf": 2.971886,
+            "profit_aed": 387.16,
+            "trades": 81
+          },
+          "2022-09": {
+            "pf": 2.184883,
+            "profit_aed": 618.26,
+            "trades": 95
+          },
+          "2022-10": {
+            "pf": 2.832544,
+            "profit_aed": 274.68,
+            "trades": 52
+          },
+          "2022-11": {
+            "pf": 37.32335,
+            "profit_aed": 1249.16,
+            "trades": 57
+          },
+          "2022-12": {
+            "pf": null,
+            "profit_aed": 147.52,
+            "trades": 45
+          },
+          "2023-01": {
+            "pf": 3.443402,
+            "profit_aed": 736.93,
+            "trades": 64
+          },
+          "2023-02": {
+            "pf": 7.437738,
+            "profit_aed": 1320.38,
+            "trades": 88
+          },
+          "2023-03": {
+            "pf": 7.279321,
+            "profit_aed": 540.21,
+            "trades": 83
+          },
+          "2023-04": {
+            "pf": 3.810656,
+            "profit_aed": 891.54,
+            "trades": 73
+          },
+          "2023-05": {
+            "pf": 9.324772,
+            "profit_aed": 638.51,
+            "trades": 67
+          },
+          "2023-06": {
+            "pf": 1.994179,
+            "profit_aed": 362.06,
+            "trades": 77
+          },
+          "2023-07": {
+            "pf": 1.826058,
+            "profit_aed": 432.4,
+            "trades": 88
+          },
+          "2023-08": {
+            "pf": 1.233812,
+            "profit_aed": 141.04,
+            "trades": 58
+          },
+          "2023-09": {
+            "pf": 1.9237,
+            "profit_aed": 358.95,
+            "trades": 53
+          },
+          "2023-10": {
+            "pf": 7.4216,
+            "profit_aed": 827.68,
+            "trades": 56
+          },
+          "2023-11": {
+            "pf": 0.855556,
+            "profit_aed": -45.91,
+            "trades": 66
+          },
+          "2023-12": {
+            "pf": 0.139637,
+            "profit_aed": -482.5,
+            "trades": 42
+          },
+          "2024-01": {
+            "pf": 49.399034,
+            "profit_aed": 500.93,
+            "trades": 34
+          },
+          "2024-02": {
+            "pf": 2.764561,
+            "profit_aed": 64.53,
+            "trades": 27
+          },
+          "2024-03": {
+            "pf": 1.686936,
+            "profit_aed": 54.79,
+            "trades": 43
+          },
+          "2024-04": {
+            "pf": 19.798905,
+            "profit_aed": 1201.25,
+            "trades": 73
+          },
+          "2024-05": {
+            "pf": 55.995353,
+            "profit_aed": 1183.5,
+            "trades": 60
+          },
+          "2024-06": {
+            "pf": null,
+            "profit_aed": 272.16,
+            "trades": 38
+          },
+          "2024-07": {
+            "pf": 0.085103,
+            "profit_aed": -1020.86,
+            "trades": 48
+          },
+          "2024-08": {
+            "pf": 1.775773,
+            "profit_aed": 160.81,
+            "trades": 56
+          },
+          "2024-09": {
+            "pf": 4.686371,
+            "profit_aed": 120.36,
+            "trades": 24
+          },
+          "2024-10": {
+            "pf": 1.826185,
+            "profit_aed": 779.34,
+            "trades": 115
+          },
+          "2024-11": {
+            "pf": 13.414222,
+            "profit_aed": 528.97,
+            "trades": 48
+          },
+          "2024-12": {
+            "pf": 0.728695,
+            "profit_aed": -47.34,
+            "trades": 29
+          },
+          "2025-01": {
+            "pf": 38.124258,
+            "profit_aed": 938.13,
+            "trades": 45
+          },
+          "2025-02": {
+            "pf": 2.704348,
+            "profit_aed": 180.32,
+            "trades": 47
+          },
+          "2025-03": {
+            "pf": 2.936136,
+            "profit_aed": 231.62,
+            "trades": 40
+          },
+          "2025-04": {
+            "pf": 6.156593,
+            "profit_aed": 577.59,
+            "trades": 77
+          },
+          "2025-05": {
+            "pf": 8.747744,
+            "profit_aed": 1957.7,
+            "trades": 136
+          },
+          "2025-06": {
+            "pf": 6.499081,
+            "profit_aed": 3559.94,
+            "trades": 126
+          },
+          "2025-07": {
+            "pf": 0.816409,
+            "profit_aed": -168.59,
+            "trades": 111
+          },
+          "2025-08": {
+            "pf": 1.74612,
+            "profit_aed": 72.12,
+            "trades": 52
+          },
+          "2025-09": {
+            "pf": 1.38164,
+            "profit_aed": 359.28,
+            "trades": 97
+          },
+          "2025-10": {
+            "pf": 18.711269,
+            "profit_aed": 6046.45,
+            "trades": 112
+          },
+          "2025-11": {
+            "pf": 18.76272,
+            "profit_aed": 3183.79,
+            "trades": 113
+          },
+          "2025-12": {
+            "pf": 11.618607,
+            "profit_aed": 4185.43,
+            "trades": 140
+          },
+          "2026-01": {
+            "pf": 15.712481,
+            "profit_aed": 9656.39,
+            "trades": 408
+          },
+          "2026-02": {
+            "pf": 19.396694,
+            "profit_aed": 18399.27,
+            "trades": 392
+          },
+          "2026-03": {
+            "pf": 28.344521,
+            "profit_aed": 16335.89,
+            "trades": 363
+          },
+          "2026-04": {
+            "pf": 8.025618,
+            "profit_aed": 14183.88,
+            "trades": 392
+          },
+          "2026-05": {
+            "pf": 7.52342,
+            "profit_aed": 4651.72,
+            "trades": 313
+          },
+          "2026-06": {
+            "pf": 1.125435,
+            "profit_aed": 101.63,
+            "trades": 113
+          }
+        },
+        "by_year": {
+          "2017": {
+            "pf": 3.300791,
+            "profit_aed": 331.59,
+            "trades": 173
+          },
+          "2018": {
+            "pf": 3.721891,
+            "profit_aed": 502.57,
+            "trades": 239
+          },
+          "2019": {
+            "pf": 4.444557,
+            "profit_aed": 853.01,
+            "trades": 256
+          },
+          "2020": {
+            "pf": 5.30032,
+            "profit_aed": 7883.26,
+            "trades": 663
+          },
+          "2021": {
+            "pf": 3.215615,
+            "profit_aed": 6888.88,
+            "trades": 850
+          },
+          "2022": {
+            "pf": 4.481091,
+            "profit_aed": 7526.78,
+            "trades": 789
+          },
+          "2023": {
+            "pf": 2.476988,
+            "profit_aed": 5721.29,
+            "trades": 815
+          },
+          "2024": {
+            "pf": 2.392257,
+            "profit_aed": 3798.44,
+            "trades": 595
+          },
+          "2025": {
+            "pf": 6.109879,
+            "profit_aed": 21123.78,
+            "trades": 1096
+          },
+          "2026": {
+            "pf": 11.926159,
+            "profit_aed": 63328.78,
+            "trades": 1981
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 15.316357,
+          "top_positive_year_share_pct": 53.687394
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A0_full_copy_long_2017_2026_model1_daily.csv",
+        "daily_sharpe_aed": 2.481642,
+        "expectancy_aed": 15.818477,
+        "intra_dd_pct": 3.426448,
+        "long_short": {
+          "BUY": {
+            "pf": 5.74733,
+            "profit_aed": 102494.75,
+            "trades": 4218
+          },
+          "SELL": {
+            "pf": 6.895646,
+            "profit_aed": 15463.63,
+            "trades": 3239
+          }
+        },
+        "max_dd_pct": 4.975376,
+        "max_dd_time": "2020.02.27 15:17",
+        "pf": 5.871722,
+        "profit_aed": 117958.38,
+        "return_per_dd": 23708.435302,
+        "summary": "experiments/mt5_native/smc_exp2810_A0_full_copy_long_2017_2026_model1_dep1600_summary.json",
+        "trades": 7457,
+        "variant": "A0_full_copy",
+        "win_rate_pct": 81.373206,
+        "window": "long_2017_2026_model1"
+      },
+      "A1_no_hourpins": {
+        "by_month": {
+          "2017-03": {
+            "pf": 0.453755,
+            "profit_aed": -23.86,
+            "trades": 8
+          },
+          "2017-04": {
+            "pf": 7.451174,
+            "profit_aed": 137.41,
+            "trades": 28
+          },
+          "2017-05": {
+            "pf": 1.023626,
+            "profit_aed": 5.27,
+            "trades": 92
+          },
+          "2017-06": {
+            "pf": 0.340242,
+            "profit_aed": -286.5,
+            "trades": 134
+          },
+          "2017-07": {
+            "pf": 1.233525,
+            "profit_aed": 40.54,
+            "trades": 103
+          },
+          "2017-08": {
+            "pf": 0.954755,
+            "profit_aed": -15.13,
+            "trades": 134
+          },
+          "2017-09": {
+            "pf": 0.483667,
+            "profit_aed": -150.0,
+            "trades": 146
+          },
+          "2017-10": {
+            "pf": 1.089465,
+            "profit_aed": 20.39,
+            "trades": 138
+          },
+          "2017-11": {
+            "pf": 1.071068,
+            "profit_aed": 10.42,
+            "trades": 104
+          },
+          "2017-12": {
+            "pf": 0.97239,
+            "profit_aed": -2.98,
+            "trades": 55
+          },
+          "2018-01": {
+            "pf": 0.864136,
+            "profit_aed": -35.94,
+            "trades": 133
+          },
+          "2018-02": {
+            "pf": 0.668602,
+            "profit_aed": -158.07,
+            "trades": 152
+          },
+          "2018-03": {
+            "pf": 0.40231,
+            "profit_aed": -134.57,
+            "trades": 99
+          },
+          "2018-04": {
+            "pf": 0.648322,
+            "profit_aed": -106.27,
+            "trades": 134
+          },
+          "2018-05": {
+            "pf": 1.192527,
+            "profit_aed": 41.48,
+            "trades": 144
+          },
+          "2018-06": {
+            "pf": 0.942449,
+            "profit_aed": -8.99,
+            "trades": 94
+          },
+          "2018-07": {
+            "pf": 0.5625,
+            "profit_aed": -93.31,
+            "trades": 119
+          },
+          "2018-08": {
+            "pf": 0.656844,
+            "profit_aed": -85.01,
+            "trades": 137
+          },
+          "2018-09": {
+            "pf": 0.751667,
+            "profit_aed": -48.41,
+            "trades": 102
+          },
+          "2018-10": {
+            "pf": 0.66101,
+            "profit_aed": -79.1,
+            "trades": 122
+          },
+          "2018-11": {
+            "pf": 2.026575,
+            "profit_aed": 112.41,
+            "trades": 99
+          },
+          "2018-12": {
+            "pf": 0.477797,
+            "profit_aed": -52.33,
+            "trades": 56
+          },
+          "2019-01": {
+            "pf": 0.689975,
+            "profit_aed": -39.15,
+            "trades": 68
+          },
+          "2019-02": {
+            "pf": 0.784867,
+            "profit_aed": -22.66,
+            "trades": 68
+          },
+          "2019-03": {
+            "pf": 1.258021,
+            "profit_aed": 32.41,
+            "trades": 69
+          },
+          "2019-04": {
+            "pf": 0.823602,
+            "profit_aed": -21.3,
+            "trades": 64
+          },
+          "2019-05": {
+            "pf": 0.507734,
+            "profit_aed": -64.92,
+            "trades": 72
+          },
+          "2019-06": {
+            "pf": 0.596439,
+            "profit_aed": -80.68,
+            "trades": 85
+          },
+          "2019-07": {
+            "pf": 0.764706,
+            "profit_aed": -36.76,
+            "trades": 79
+          },
+          "2019-08": {
+            "pf": 1.041436,
+            "profit_aed": 10.04,
+            "trades": 118
+          },
+          "2019-09": {
+            "pf": 0.647864,
+            "profit_aed": -87.21,
+            "trades": 96
+          },
+          "2019-10": {
+            "pf": 1.149401,
+            "profit_aed": 19.34,
+            "trades": 83
+          },
+          "2019-11": {
+            "pf": 2.016569,
+            "profit_aed": 83.44,
+            "trades": 74
+          },
+          "2019-12": {
+            "pf": 0.809261,
+            "profit_aed": -11.08,
+            "trades": 38
+          },
+          "2020-01": {
+            "pf": 1.207174,
+            "profit_aed": 37.02,
+            "trades": 97
+          },
+          "2020-02": {
+            "pf": 1.036518,
+            "profit_aed": 6.59,
+            "trades": 86
+          },
+          "2020-03": {
+            "pf": 1.168511,
+            "profit_aed": 72.33,
+            "trades": 127
+          },
+          "2020-04": {
+            "pf": 0.436613,
+            "profit_aed": -182.96,
+            "trades": 78
+          },
+          "2020-05": {
+            "pf": 0.637647,
+            "profit_aed": -102.68,
+            "trades": 80
+          },
+          "2020-06": {
+            "pf": 0.851271,
+            "profit_aed": -18.67,
+            "trades": 52
+          },
+          "2020-07": {
+            "pf": 0.777664,
+            "profit_aed": -23.79,
+            "trades": 43
+          },
+          "2020-10": {
+            "pf": 0.865784,
+            "profit_aed": -2.13,
+            "trades": 5
+          },
+          "2020-11": {
+            "pf": 1.179641,
+            "profit_aed": 0.6,
+            "trades": 4
+          },
+          "2020-12": {
+            "pf": 0.036313,
+            "profit_aed": -6.9,
+            "trades": 2
+          },
+          "2021-01": {
+            "pf": 1.266504,
+            "profit_aed": 17.52,
+            "trades": 23
+          },
+          "2021-02": {
+            "pf": 1.654685,
+            "profit_aed": 45.35,
+            "trades": 30
+          },
+          "2021-03": {
+            "pf": 0.373904,
+            "profit_aed": -60.7,
+            "trades": 21
+          },
+          "2021-04": {
+            "pf": 2.912442,
+            "profit_aed": 4.15,
+            "trades": 3
+          },
+          "2021-05": {
+            "pf": 2.971466,
+            "profit_aed": 45.6,
+            "trades": 21
+          },
+          "2021-06": {
+            "pf": 0.507033,
+            "profit_aed": -36.1,
+            "trades": 16
+          },
+          "2021-07": {
+            "pf": 0.55493,
+            "profit_aed": -4.74,
+            "trades": 3
+          },
+          "2021-08": {
+            "pf": 2.345154,
+            "profit_aed": 5.69,
+            "trades": 5
+          },
+          "2021-09": {
+            "pf": 0.985599,
+            "profit_aed": -0.41,
+            "trades": 13
+          },
+          "2021-10": {
+            "pf": 0.952088,
+            "profit_aed": -2.49,
+            "trades": 27
+          },
+          "2021-11": {
+            "pf": 0.52439,
+            "profit_aed": -1.17,
+            "trades": 4
+          },
+          "2021-12": {
+            "pf": null,
+            "profit_aed": 6.0,
+            "trades": 5
+          },
+          "2022-01": {
+            "pf": 0.404898,
+            "profit_aed": -14.58,
+            "trades": 9
+          },
+          "2022-02": {
+            "pf": null,
+            "profit_aed": 5.11,
+            "trades": 2
+          },
+          "2022-03": {
+            "pf": 1.0077,
+            "profit_aed": 0.41,
+            "trades": 17
+          },
+          "2022-04": {
+            "pf": null,
+            "profit_aed": 0.78,
+            "trades": 3
+          },
+          "2022-05": {
+            "pf": null,
+            "profit_aed": 1.47,
+            "trades": 3
+          },
+          "2022-06": {
+            "pf": 1.176963,
+            "profit_aed": 4.44,
+            "trades": 16
+          },
+          "2022-07": {
+            "pf": 0.979283,
+            "profit_aed": -1.26,
+            "trades": 25
+          },
+          "2022-08": {
+            "pf": 0.496581,
+            "profit_aed": -11.78,
+            "trades": 9
+          },
+          "2022-09": {
+            "pf": 0.235828,
+            "profit_aed": -3.37,
+            "trades": 6
+          },
+          "2022-10": {
+            "pf": 0.73717,
+            "profit_aed": -3.38,
+            "trades": 2
+          },
+          "2022-11": {
+            "pf": null,
+            "profit_aed": 15.94,
+            "trades": 2
+          },
+          "2022-12": {
+            "pf": 1.09108,
+            "profit_aed": 0.97,
+            "trades": 9
+          },
+          "2023-01": {
+            "pf": 1.141596,
+            "profit_aed": 4.17,
+            "trades": 10
+          },
+          "2023-02": {
+            "pf": 0.955997,
+            "profit_aed": -1.02,
+            "trades": 10
+          },
+          "2023-03": {
+            "pf": 3.198268,
+            "profit_aed": 71.07,
+            "trades": 31
+          },
+          "2023-04": {
+            "pf": 0.983949,
+            "profit_aed": -2.58,
+            "trades": 62
+          },
+          "2023-05": {
+            "pf": 1.087071,
+            "profit_aed": 15.86,
+            "trades": 80
+          },
+          "2023-06": {
+            "pf": 0.623369,
+            "profit_aed": -66.98,
+            "trades": 69
+          },
+          "2023-07": {
+            "pf": 0.694656,
+            "profit_aed": -24.91,
+            "trades": 32
+          },
+          "2023-08": {
+            "pf": null,
+            "profit_aed": 31.12,
+            "trades": 11
+          },
+          "2023-09": {
+            "pf": 1.009776,
+            "profit_aed": 0.54,
+            "trades": 36
+          },
+          "2023-10": {
+            "pf": 0.51116,
+            "profit_aed": -39.64,
+            "trades": 23
+          },
+          "2023-11": {
+            "pf": null,
+            "profit_aed": 1.55,
+            "trades": 3
+          },
+          "2023-12": {
+            "pf": null,
+            "profit_aed": 0.78,
+            "trades": 3
+          },
+          "2024-01": {
+            "pf": null,
+            "profit_aed": 2.09,
+            "trades": 1
+          },
+          "2024-02": {
+            "pf": 1.321526,
+            "profit_aed": 1.18,
+            "trades": 3
+          },
+          "2024-03": {
+            "pf": 0.520871,
+            "profit_aed": -2.64,
+            "trades": 3
+          },
+          "2024-05": {
+            "pf": null,
+            "profit_aed": 0.66,
+            "trades": 2
+          },
+          "2024-06": {
+            "pf": 1.180614,
+            "profit_aed": 3.0,
+            "trades": 7
+          },
+          "2024-07": {
+            "pf": null,
+            "profit_aed": 0.92,
+            "trades": 1
+          },
+          "2024-08": {
+            "pf": null,
+            "profit_aed": 0.96,
+            "trades": 2
+          },
+          "2024-10": {
+            "pf": 1.073521,
+            "profit_aed": 1.28,
+            "trades": 8
+          },
+          "2024-11": {
+            "pf": null,
+            "profit_aed": 4.04,
+            "trades": 2
+          },
+          "2024-12": {
+            "pf": null,
+            "profit_aed": 12.53,
+            "trades": 5
+          },
+          "2025-01": {
+            "pf": 0.706734,
+            "profit_aed": -18.03,
+            "trades": 19
+          }
+        },
+        "by_year": {
+          "2017": {
+            "pf": 0.867995,
+            "profit_aed": -264.44,
+            "trades": 942
+          },
+          "2018": {
+            "pf": 0.76342,
+            "profit_aed": -648.11,
+            "trades": 1391
+          },
+          "2019": {
+            "pf": 0.873359,
+            "profit_aed": -218.53,
+            "trades": 914
+          },
+          "2020": {
+            "pf": 0.866745,
+            "profit_aed": -220.59,
+            "trades": 574
+          },
+          "2021": {
+            "pf": 1.043664,
+            "profit_aed": 18.7,
+            "trades": 171
+          },
+          "2022": {
+            "pf": 0.975579,
+            "profit_aed": -5.25,
+            "trades": 103
+          },
+          "2023": {
+            "pf": 0.98781,
+            "profit_aed": -10.04,
+            "trades": 370
+          },
+          "2024": {
+            "pf": 1.556019,
+            "profit_aed": 24.02,
+            "trades": 34
+          },
+          "2025": {
+            "pf": 0.706734,
+            "profit_aed": -18.03,
+            "trades": 19
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 14.6983,
+          "top_positive_year_share_pct": 56.226592
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A1_no_hourpins_long_2017_2026_model1_daily.csv",
+        "daily_sharpe_aed": -0.753084,
+        "expectancy_aed": -0.297094,
+        "intra_dd_pct": 6.977964,
+        "long_short": {
+          "BUY": {
+            "pf": 0.812489,
+            "profit_aed": -1531.62,
+            "trades": 3330
+          },
+          "SELL": {
+            "pf": 1.123992,
+            "profit_aed": 189.35,
+            "trades": 1188
+          }
+        },
+        "max_dd_pct": 86.505818,
+        "max_dd_time": "2020.10.19 14:26",
+        "pf": 0.861554,
+        "profit_aed": -1342.27,
+        "return_per_dd": -15.516529,
+        "summary": "experiments/mt5_native/smc_exp2810_A1_no_hourpins_long_2017_2026_model1_dep1600_summary.json",
+        "trades": 4518,
+        "variant": "A1_no_hourpins",
+        "win_rate_pct": 61.775122,
+        "window": "long_2017_2026_model1"
+      },
+      "A2_no_pricepins": {
+        "by_month": {
+          "2017-04": {
+            "pf": null,
+            "profit_aed": 52.77,
+            "trades": 3
+          },
+          "2017-05": {
+            "pf": 1.066812,
+            "profit_aed": 1.84,
+            "trades": 5
+          },
+          "2017-06": {
+            "pf": 0.171091,
+            "profit_aed": -11.24,
+            "trades": 9
+          },
+          "2017-07": {
+            "pf": 0.722689,
+            "profit_aed": -9.9,
+            "trades": 19
+          },
+          "2017-08": {
+            "pf": null,
+            "profit_aed": 59.54,
+            "trades": 7
+          },
+          "2017-09": {
+            "pf": 1.78497,
+            "profit_aed": 10.55,
+            "trades": 18
+          },
+          "2017-10": {
+            "pf": null,
+            "profit_aed": 57.25,
+            "trades": 8
+          },
+          "2017-11": {
+            "pf": 0.0,
+            "profit_aed": -8.91,
+            "trades": 3
+          },
+          "2017-12": {
+            "pf": null,
+            "profit_aed": 0.78,
+            "trades": 3
+          },
+          "2018-01": {
+            "pf": 0.692381,
+            "profit_aed": -3.23,
+            "trades": 13
+          },
+          "2018-02": {
+            "pf": 22.019345,
+            "profit_aed": 141.25,
+            "trades": 18
+          },
+          "2018-03": {
+            "pf": null,
+            "profit_aed": 0.87,
+            "trades": 3
+          },
+          "2018-04": {
+            "pf": 3.772999,
+            "profit_aed": 23.21,
+            "trades": 7
+          },
+          "2018-05": {
+            "pf": null,
+            "profit_aed": 29.52,
+            "trades": 5
+          },
+          "2018-06": {
+            "pf": 0.363958,
+            "profit_aed": -5.4,
+            "trades": 9
+          },
+          "2018-07": {
+            "pf": 0.029077,
+            "profit_aed": -36.73,
+            "trades": 5
+          },
+          "2018-08": {
+            "pf": null,
+            "profit_aed": 54.68,
+            "trades": 14
+          },
+          "2018-09": {
+            "pf": 3.752235,
+            "profit_aed": 21.55,
+            "trades": 5
+          },
+          "2018-10": {
+            "pf": 0.831881,
+            "profit_aed": -4.63,
+            "trades": 10
+          },
+          "2018-11": {
+            "pf": null,
+            "profit_aed": 2.84,
+            "trades": 6
+          },
+          "2018-12": {
+            "pf": 0.0,
+            "profit_aed": -12.02,
+            "trades": 4
+          },
+          "2019-01": {
+            "pf": 0.080093,
+            "profit_aed": -23.66,
+            "trades": 5
+          },
+          "2019-02": {
+            "pf": null,
+            "profit_aed": 3.3,
+            "trades": 3
+          },
+          "2019-03": {
+            "pf": 0.0,
+            "profit_aed": -25.72,
+            "trades": 2
+          },
+          "2019-04": {
+            "pf": null,
+            "profit_aed": 34.99,
+            "trades": 8
+          },
+          "2019-05": {
+            "pf": 0.641524,
+            "profit_aed": -9.22,
+            "trades": 8
+          },
+          "2019-06": {
+            "pf": 6.018476,
+            "profit_aed": 43.46,
+            "trades": 12
+          },
+          "2019-07": {
+            "pf": 7.812753,
+            "profit_aed": 67.31,
+            "trades": 17
+          },
+          "2019-08": {
+            "pf": 14.418197,
+            "profit_aed": 160.75,
+            "trades": 30
+          },
+          "2019-09": {
+            "pf": 0.321725,
+            "profit_aed": -41.68,
+            "trades": 24
+          },
+          "2019-10": {
+            "pf": null,
+            "profit_aed": 30.91,
+            "trades": 15
+          },
+          "2019-11": {
+            "pf": 0.0,
+            "profit_aed": -8.49,
+            "trades": 3
+          },
+          "2019-12": {
+            "pf": null,
+            "profit_aed": 4.63,
+            "trades": 1
+          },
+          "2020-01": {
+            "pf": null,
+            "profit_aed": 104.59,
+            "trades": 24
+          },
+          "2020-02": {
+            "pf": 6.475152,
+            "profit_aed": 45.17,
+            "trades": 9
+          },
+          "2020-03": {
+            "pf": 3.262553,
+            "profit_aed": 224.4,
+            "trades": 37
+          },
+          "2020-04": {
+            "pf": 1.988847,
+            "profit_aed": 145.4,
+            "trades": 54
+          },
+          "2020-05": {
+            "pf": 2.96182,
+            "profit_aed": 128.46,
+            "trades": 29
+          },
+          "2020-06": {
+            "pf": 2.057676,
+            "profit_aed": 62.9,
+            "trades": 26
+          },
+          "2020-07": {
+            "pf": 15.063978,
+            "profit_aed": 261.59,
+            "trades": 32
+          },
+          "2020-08": {
+            "pf": 3.896011,
+            "profit_aed": 210.54,
+            "trades": 36
+          },
+          "2020-09": {
+            "pf": 6.373274,
+            "profit_aed": 217.94,
+            "trades": 30
+          },
+          "2020-10": {
+            "pf": 2.863429,
+            "profit_aed": 110.52,
+            "trades": 27
+          },
+          "2020-11": {
+            "pf": 0.024928,
+            "profit_aed": -30.51,
+            "trades": 9
+          },
+          "2020-12": {
+            "pf": 1.182105,
+            "profit_aed": 27.13,
+            "trades": 21
+          },
+          "2021-01": {
+            "pf": 1.014924,
+            "profit_aed": 2.16,
+            "trades": 39
+          },
+          "2021-02": {
+            "pf": 7.525201,
+            "profit_aed": 348.25,
+            "trades": 25
+          },
+          "2021-03": {
+            "pf": 0.333397,
+            "profit_aed": -34.91,
+            "trades": 20
+          },
+          "2021-04": {
+            "pf": null,
+            "profit_aed": 126.29,
+            "trades": 30
+          },
+          "2021-05": {
+            "pf": 4.016019,
+            "profit_aed": 193.93,
+            "trades": 41
+          },
+          "2021-06": {
+            "pf": 2.380297,
+            "profit_aed": 65.15,
+            "trades": 21
+          },
+          "2021-07": {
+            "pf": 1.085602,
+            "profit_aed": 8.49,
+            "trades": 16
+          },
+          "2021-08": {
+            "pf": 1.208805,
+            "profit_aed": 34.86,
+            "trades": 27
+          },
+          "2021-09": {
+            "pf": 3.545183,
+            "profit_aed": 59.71,
+            "trades": 24
+          },
+          "2021-10": {
+            "pf": null,
+            "profit_aed": 181.63,
+            "trades": 15
+          },
+          "2021-11": {
+            "pf": 14.481762,
+            "profit_aed": 284.6,
+            "trades": 34
+          },
+          "2021-12": {
+            "pf": null,
+            "profit_aed": 10.8,
+            "trades": 3
+          },
+          "2022-01": {
+            "pf": 0.506302,
+            "profit_aed": -72.07,
+            "trades": 24
+          },
+          "2022-02": {
+            "pf": 4.949512,
+            "profit_aed": 141.59,
+            "trades": 24
+          },
+          "2022-03": {
+            "pf": 1.016334,
+            "profit_aed": 1.62,
+            "trades": 44
+          },
+          "2022-04": {
+            "pf": 4.149302,
+            "profit_aed": 223.38,
+            "trades": 25
+          },
+          "2022-05": {
+            "pf": 15.796421,
+            "profit_aed": 132.28,
+            "trades": 24
+          },
+          "2022-06": {
+            "pf": 5.379894,
+            "profit_aed": 398.22,
+            "trades": 47
+          },
+          "2022-07": {
+            "pf": 7.698122,
+            "profit_aed": 142.67,
+            "trades": 16
+          },
+          "2022-08": {
+            "pf": 1.446874,
+            "profit_aed": 59.26,
+            "trades": 40
+          },
+          "2022-09": {
+            "pf": 1.640534,
+            "profit_aed": 96.49,
+            "trades": 42
+          },
+          "2022-10": {
+            "pf": 1.134016,
+            "profit_aed": 18.97,
+            "trades": 31
+          },
+          "2022-11": {
+            "pf": 17.802357,
+            "profit_aed": 442.07,
+            "trades": 22
+          },
+          "2022-12": {
+            "pf": null,
+            "profit_aed": 85.94,
+            "trades": 29
+          },
+          "2023-01": {
+            "pf": 1.050098,
+            "profit_aed": 7.38,
+            "trades": 23
+          },
+          "2023-02": {
+            "pf": 16.892344,
+            "profit_aed": 199.29,
+            "trades": 20
+          },
+          "2023-03": {
+            "pf": 9.131411,
+            "profit_aed": 344.04,
+            "trades": 53
+          },
+          "2023-04": {
+            "pf": 1.648392,
+            "profit_aed": 79.83,
+            "trades": 38
+          },
+          "2023-05": {
+            "pf": null,
+            "profit_aed": 5.95,
+            "trades": 14
+          },
+          "2023-06": {
+            "pf": 23.89225,
+            "profit_aed": 121.1,
+            "trades": 35
+          },
+          "2023-07": {
+            "pf": 7.651416,
+            "profit_aed": 183.18,
+            "trades": 28
+          },
+          "2023-08": {
+            "pf": 4.119782,
+            "profit_aed": 189.09,
+            "trades": 21
+          },
+          "2023-09": {
+            "pf": 1.130983,
+            "profit_aed": 5.61,
+            "trades": 16
+          },
+          "2023-10": {
+            "pf": 0.401911,
+            "profit_aed": -35.06,
+            "trades": 22
+          },
+          "2023-11": {
+            "pf": 96.420455,
+            "profit_aed": 167.94,
+            "trades": 34
+          },
+          "2023-12": {
+            "pf": 0.230641,
+            "profit_aed": -253.45,
+            "trades": 35
+          },
+          "2024-01": {
+            "pf": 7.857971,
+            "profit_aed": 70.98,
+            "trades": 25
+          },
+          "2024-02": {
+            "pf": 1.018048,
+            "profit_aed": 0.66,
+            "trades": 24
+          },
+          "2024-03": {
+            "pf": 1.533225,
+            "profit_aed": 42.53,
+            "trades": 35
+          },
+          "2024-04": {
+            "pf": 13.373239,
+            "profit_aed": 790.65,
+            "trades": 71
+          },
+          "2024-05": {
+            "pf": 20.920074,
+            "profit_aed": 428.68,
+            "trades": 56
+          },
+          "2024-06": {
+            "pf": null,
+            "profit_aed": 272.16,
+            "trades": 38
+          },
+          "2024-07": {
+            "pf": 0.205931,
+            "profit_aed": -357.18,
+            "trades": 39
+          },
+          "2024-08": {
+            "pf": 1.077042,
+            "profit_aed": 15.97,
+            "trades": 54
+          },
+          "2024-09": {
+            "pf": 5.949067,
+            "profit_aed": 127.29,
+            "trades": 21
+          },
+          "2024-10": {
+            "pf": 0.946245,
+            "profit_aed": -41.82,
+            "trades": 102
+          },
+          "2024-11": {
+            "pf": 6.655245,
+            "profit_aed": 240.97,
+            "trades": 45
+          },
+          "2024-12": {
+            "pf": 0.442375,
+            "profit_aed": -97.3,
+            "trades": 24
+          },
+          "2025-01": {
+            "pf": 11.967155,
+            "profit_aed": 277.14,
+            "trades": 42
+          },
+          "2025-02": {
+            "pf": 2.385633,
+            "profit_aed": 146.6,
+            "trades": 40
+          },
+          "2025-03": {
+            "pf": 2.936136,
+            "profit_aed": 231.62,
+            "trades": 40
+          },
+          "2025-04": {
+            "pf": 4.869119,
+            "profit_aed": 433.38,
+            "trades": 75
+          },
+          "2025-05": {
+            "pf": 8.556752,
+            "profit_aed": 1909.44,
+            "trades": 136
+          },
+          "2025-06": {
+            "pf": 5.204257,
+            "profit_aed": 2721.71,
+            "trades": 124
+          },
+          "2025-07": {
+            "pf": 0.816409,
+            "profit_aed": -168.59,
+            "trades": 111
+          },
+          "2025-08": {
+            "pf": 1.74612,
+            "profit_aed": 72.12,
+            "trades": 52
+          },
+          "2025-09": {
+            "pf": 1.329166,
+            "profit_aed": 309.88,
+            "trades": 95
+          },
+          "2025-10": {
+            "pf": 18.711269,
+            "profit_aed": 6046.45,
+            "trades": 112
+          },
+          "2025-11": {
+            "pf": 18.76272,
+            "profit_aed": 3183.79,
+            "trades": 113
+          },
+          "2025-12": {
+            "pf": 10.575147,
+            "profit_aed": 3774.14,
+            "trades": 132
+          },
+          "2026-01": {
+            "pf": 14.752663,
+            "profit_aed": 8687.97,
+            "trades": 325
+          },
+          "2026-02": {
+            "pf": 20.550965,
+            "profit_aed": 14706.04,
+            "trades": 320
+          },
+          "2026-03": {
+            "pf": 24.31942,
+            "profit_aed": 7676.52,
+            "trades": 236
+          },
+          "2026-04": {
+            "pf": 6.155485,
+            "profit_aed": 9896.83,
+            "trades": 309
+          },
+          "2026-05": {
+            "pf": 6.079388,
+            "profit_aed": 3241.31,
+            "trades": 207
+          },
+          "2026-06": {
+            "pf": 1.125435,
+            "profit_aed": 101.63,
+            "trades": 113
+          }
+        },
+        "by_year": {
+          "2017": {
+            "pf": 2.539889,
+            "profit_aed": 152.68,
+            "trades": 75
+          },
+          "2018": {
+            "pf": 2.776278,
+            "profit_aed": 211.91,
+            "trades": 99
+          },
+          "2019": {
+            "pf": 2.331945,
+            "profit_aed": 236.58,
+            "trades": 128
+          },
+          "2020": {
+            "pf": 3.008537,
+            "profit_aed": 1508.13,
+            "trades": 334
+          },
+          "2021": {
+            "pf": 2.904292,
+            "profit_aed": 1280.96,
+            "trades": 295
+          },
+          "2022": {
+            "pf": 2.807403,
+            "profit_aed": 1670.42,
+            "trades": 368
+          },
+          "2023": {
+            "pf": 2.192093,
+            "profit_aed": 1014.9,
+            "trades": 339
+          },
+          "2024": {
+            "pf": 1.790259,
+            "profit_aed": 1493.59,
+            "trades": 534
+          },
+          "2025": {
+            "pf": 5.581058,
+            "profit_aed": 18937.68,
+            "trades": 1072
+          },
+          "2026": {
+            "pf": 9.72056,
+            "profit_aed": 44310.3,
+            "trades": 1510
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 20.394218,
+          "top_positive_year_share_pct": 62.570013
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A2_no_pricepins_long_2017_2026_model1_daily.csv",
+        "daily_sharpe_aed": 1.843525,
+        "expectancy_aed": 14.896329,
+        "intra_dd_pct": 3.489184,
+        "long_short": {
+          "BUY": {
+            "pf": 5.786994,
+            "profit_aed": 60666.24,
+            "trades": 2777
+          },
+          "SELL": {
+            "pf": 6.007676,
+            "profit_aed": 10150.91,
+            "trades": 1977
+          }
+        },
+        "max_dd_pct": 10.154293,
+        "max_dd_time": "2025.10.22 04:12",
+        "pf": 5.817424,
+        "profit_aed": 70817.15,
+        "return_per_dd": 6974.109374,
+        "summary": "experiments/mt5_native/smc_exp2810_A2_no_pricepins_long_2017_2026_model1_dep1600_summary.json",
+        "trades": 4754,
+        "variant": "A2_no_pricepins",
+        "win_rate_pct": 79.154396,
+        "window": "long_2017_2026_model1"
+      },
+      "A3_no_slots": {
+        "by_month": {
+          "2017-04": {
+            "pf": null,
+            "profit_aed": 54.07,
+            "trades": 8
+          },
+          "2017-05": {
+            "pf": null,
+            "profit_aed": 1.03,
+            "trades": 3
+          },
+          "2017-06": {
+            "pf": 0.804107,
+            "profit_aed": -4.77,
+            "trades": 25
+          },
+          "2017-07": {
+            "pf": 5.057993,
+            "profit_aed": 80.47,
+            "trades": 28
+          },
+          "2017-08": {
+            "pf": 8.936378,
+            "profit_aed": 48.65,
+            "trades": 16
+          },
+          "2017-09": {
+            "pf": null,
+            "profit_aed": 8.0,
+            "trades": 13
+          },
+          "2017-10": {
+            "pf": 1.0959,
+            "profit_aed": 2.69,
+            "trades": 15
+          },
+          "2017-11": {
+            "pf": null,
+            "profit_aed": 14.73,
+            "trades": 10
+          },
+          "2017-12": {
+            "pf": null,
+            "profit_aed": 22.04,
+            "trades": 8
+          },
+          "2018-01": {
+            "pf": 0.608508,
+            "profit_aed": -6.35,
+            "trades": 13
+          },
+          "2018-02": {
+            "pf": 15.852679,
+            "profit_aed": 99.81,
+            "trades": 20
+          },
+          "2018-03": {
+            "pf": null,
+            "profit_aed": 3.38,
+            "trades": 3
+          },
+          "2018-04": {
+            "pf": 8.331313,
+            "profit_aed": 36.29,
+            "trades": 22
+          },
+          "2018-05": {
+            "pf": null,
+            "profit_aed": 48.19,
+            "trades": 21
+          },
+          "2018-06": {
+            "pf": null,
+            "profit_aed": 19.84,
+            "trades": 12
+          },
+          "2018-07": {
+            "pf": 1.144448,
+            "profit_aed": 4.15,
+            "trades": 24
+          },
+          "2018-08": {
+            "pf": 1.592957,
+            "profit_aed": 19.87,
+            "trades": 26
+          },
+          "2018-09": {
+            "pf": null,
+            "profit_aed": 40.21,
+            "trades": 8
+          },
+          "2018-10": {
+            "pf": null,
+            "profit_aed": 30.03,
+            "trades": 8
+          },
+          "2018-11": {
+            "pf": 28.127168,
+            "profit_aed": 93.86,
+            "trades": 13
+          },
+          "2018-12": {
+            "pf": 5.41115,
+            "profit_aed": 12.66,
+            "trades": 6
+          },
+          "2019-01": {
+            "pf": 0.560338,
+            "profit_aed": -16.65,
+            "trades": 11
+          },
+          "2019-02": {
+            "pf": null,
+            "profit_aed": 61.19,
+            "trades": 17
+          },
+          "2019-03": {
+            "pf": null,
+            "profit_aed": 87.31,
+            "trades": 15
+          },
+          "2019-04": {
+            "pf": 3.235054,
+            "profit_aed": 43.74,
+            "trades": 13
+          },
+          "2019-05": {
+            "pf": null,
+            "profit_aed": 38.85,
+            "trades": 18
+          },
+          "2019-06": {
+            "pf": 8.741339,
+            "profit_aed": 67.04,
+            "trades": 20
+          },
+          "2019-07": {
+            "pf": 2.426129,
+            "profit_aed": 23.36,
+            "trades": 8
+          },
+          "2019-08": {
+            "pf": null,
+            "profit_aed": 152.0,
+            "trades": 22
+          },
+          "2019-09": {
+            "pf": 0.331322,
+            "profit_aed": -47.65,
+            "trades": 23
+          },
+          "2019-10": {
+            "pf": null,
+            "profit_aed": 126.25,
+            "trades": 11
+          },
+          "2019-11": {
+            "pf": null,
+            "profit_aed": 109.67,
+            "trades": 18
+          },
+          "2019-12": {
+            "pf": null,
+            "profit_aed": 22.67,
+            "trades": 4
+          },
+          "2020-01": {
+            "pf": null,
+            "profit_aed": 351.06,
+            "trades": 29
+          },
+          "2020-02": {
+            "pf": null,
+            "profit_aed": 64.94,
+            "trades": 14
+          },
+          "2020-03": {
+            "pf": 5.191067,
+            "profit_aed": 415.67,
+            "trades": 37
+          },
+          "2020-04": {
+            "pf": 2.07777,
+            "profit_aed": 205.52,
+            "trades": 74
+          },
+          "2020-05": {
+            "pf": 6.213023,
+            "profit_aed": 663.67,
+            "trades": 50
+          },
+          "2020-06": {
+            "pf": 17.199456,
+            "profit_aed": 1011.98,
+            "trades": 62
+          },
+          "2020-07": {
+            "pf": 22.034692,
+            "profit_aed": 1352.11,
+            "trades": 46
+          },
+          "2020-08": {
+            "pf": 9.906685,
+            "profit_aed": 575.55,
+            "trades": 57
+          },
+          "2020-09": {
+            "pf": 2.864961,
+            "profit_aed": 631.83,
+            "trades": 62
+          },
+          "2020-10": {
+            "pf": 4.877129,
+            "profit_aed": 696.72,
+            "trades": 56
+          },
+          "2020-11": {
+            "pf": 32.201616,
+            "profit_aed": 965.69,
+            "trades": 36
+          },
+          "2020-12": {
+            "pf": 0.490743,
+            "profit_aed": -201.62,
+            "trades": 19
+          },
+          "2021-01": {
+            "pf": 3.340039,
+            "profit_aed": 348.97,
+            "trades": 59
+          },
+          "2021-02": {
+            "pf": 4.574384,
+            "profit_aed": 779.18,
+            "trades": 73
+          },
+          "2021-03": {
+            "pf": 3.302072,
+            "profit_aed": 566.54,
+            "trades": 76
+          },
+          "2021-04": {
+            "pf": 3.124947,
+            "profit_aed": 402.38,
+            "trades": 71
+          },
+          "2021-05": {
+            "pf": 8.438838,
+            "profit_aed": 653.13,
+            "trades": 80
+          },
+          "2021-06": {
+            "pf": 0.780199,
+            "profit_aed": -87.67,
+            "trades": 39
+          },
+          "2021-07": {
+            "pf": 3.007731,
+            "profit_aed": 327.24,
+            "trades": 42
+          },
+          "2021-08": {
+            "pf": 14.239927,
+            "profit_aed": 1603.62,
+            "trades": 56
+          },
+          "2021-09": {
+            "pf": 1.363851,
+            "profit_aed": 195.73,
+            "trades": 64
+          },
+          "2021-10": {
+            "pf": 21.052676,
+            "profit_aed": 475.85,
+            "trades": 66
+          },
+          "2021-11": {
+            "pf": 2.406443,
+            "profit_aed": 372.82,
+            "trades": 56
+          },
+          "2021-12": {
+            "pf": 8.531066,
+            "profit_aed": 423.02,
+            "trades": 50
+          },
+          "2022-01": {
+            "pf": 58.142687,
+            "profit_aed": 480.57,
+            "trades": 46
+          },
+          "2022-02": {
+            "pf": 8.378273,
+            "profit_aed": 625.53,
+            "trades": 30
+          },
+          "2022-03": {
+            "pf": 1.559891,
+            "profit_aed": 55.53,
+            "trades": 40
+          },
+          "2022-04": {
+            "pf": 6.618425,
+            "profit_aed": 408.01,
+            "trades": 66
+          },
+          "2022-05": {
+            "pf": 13.819431,
+            "profit_aed": 820.7,
+            "trades": 52
+          },
+          "2022-06": {
+            "pf": 1.898519,
+            "profit_aed": 274.21,
+            "trades": 78
+          },
+          "2022-07": {
+            "pf": 14.906609,
+            "profit_aed": 1660.31,
+            "trades": 74
+          },
+          "2022-08": {
+            "pf": 4.144673,
+            "profit_aed": 427.99,
+            "trades": 65
+          },
+          "2022-09": {
+            "pf": 2.180398,
+            "profit_aed": 615.92,
+            "trades": 86
+          },
+          "2022-10": {
+            "pf": 3.994051,
+            "profit_aed": 296.95,
+            "trades": 41
+          },
+          "2022-11": {
+            "pf": 36.469032,
+            "profit_aed": 1219.78,
+            "trades": 55
+          },
+          "2022-12": {
+            "pf": null,
+            "profit_aed": 126.55,
+            "trades": 30
+          },
+          "2023-01": {
+            "pf": 3.440816,
+            "profit_aed": 736.15,
+            "trades": 61
+          },
+          "2023-02": {
+            "pf": 7.433935,
+            "profit_aed": 1319.6,
+            "trades": 85
+          },
+          "2023-03": {
+            "pf": 7.048858,
+            "profit_aed": 497.7,
+            "trades": 67
+          },
+          "2023-04": {
+            "pf": 3.984387,
+            "profit_aed": 898.42,
+            "trades": 63
+          },
+          "2023-05": {
+            "pf": 9.297653,
+            "profit_aed": 636.43,
+            "trades": 59
+          },
+          "2023-06": {
+            "pf": 1.967241,
+            "profit_aed": 352.25,
+            "trades": 71
+          },
+          "2023-07": {
+            "pf": 1.716239,
+            "profit_aed": 355.19,
+            "trades": 71
+          },
+          "2023-08": {
+            "pf": 1.233812,
+            "profit_aed": 141.04,
+            "trades": 58
+          },
+          "2023-09": {
+            "pf": 1.897198,
+            "profit_aed": 333.3,
+            "trades": 45
+          },
+          "2023-10": {
+            "pf": 7.411514,
+            "profit_aed": 826.38,
+            "trades": 51
+          },
+          "2023-11": {
+            "pf": 0.853102,
+            "profit_aed": -46.69,
+            "trades": 63
+          },
+          "2023-12": {
+            "pf": 2.458529,
+            "profit_aed": 46.6,
+            "trades": 30
+          },
+          "2024-01": {
+            "pf": 48.793237,
+            "profit_aed": 494.66,
+            "trades": 31
+          },
+          "2024-02": {
+            "pf": 3.890845,
+            "profit_aed": 73.89,
+            "trades": 21
+          },
+          "2024-03": {
+            "pf": 2.395117,
+            "profit_aed": 75.42,
+            "trades": 35
+          },
+          "2024-04": {
+            "pf": 5.210172,
+            "profit_aed": 269.03,
+            "trades": 51
+          },
+          "2024-05": {
+            "pf": null,
+            "profit_aed": 984.09,
+            "trades": 34
+          },
+          "2024-06": {
+            "pf": null,
+            "profit_aed": 248.87,
+            "trades": 25
+          },
+          "2024-07": {
+            "pf": 2.661007,
+            "profit_aed": 56.74,
+            "trades": 30
+          },
+          "2024-08": {
+            "pf": 0.449181,
+            "profit_aed": -91.48,
+            "trades": 28
+          },
+          "2024-09": {
+            "pf": 18.926407,
+            "profit_aed": 124.23,
+            "trades": 17
+          },
+          "2024-10": {
+            "pf": 2.082656,
+            "profit_aed": 271.53,
+            "trades": 78
+          },
+          "2024-11": {
+            "pf": 12.488383,
+            "profit_aed": 489.52,
+            "trades": 33
+          },
+          "2024-12": {
+            "pf": 0.589203,
+            "profit_aed": -71.68,
+            "trades": 18
+          },
+          "2025-01": {
+            "pf": 38.124258,
+            "profit_aed": 938.13,
+            "trades": 45
+          },
+          "2025-02": {
+            "pf": 2.69206,
+            "profit_aed": 179.02,
+            "trades": 42
+          },
+          "2025-03": {
+            "pf": 5.90129,
+            "profit_aed": 75.97,
+            "trades": 25
+          },
+          "2025-04": {
+            "pf": 3.448854,
+            "profit_aed": 233.89,
+            "trades": 39
+          },
+          "2025-05": {
+            "pf": 27.873871,
+            "profit_aed": 862.92,
+            "trades": 78
+          },
+          "2025-06": {
+            "pf": 2.095938,
+            "profit_aed": 167.01,
+            "trades": 50
+          },
+          "2025-07": {
+            "pf": 2.043993,
+            "profit_aed": 381.59,
+            "trades": 86
+          },
+          "2025-08": {
+            "pf": 1.147212,
+            "profit_aed": 13.04,
+            "trades": 19
+          },
+          "2025-09": {
+            "pf": 2.724677,
+            "profit_aed": 404.73,
+            "trades": 55
+          },
+          "2025-10": {
+            "pf": 8.641332,
+            "profit_aed": 683.67,
+            "trades": 61
+          },
+          "2025-11": {
+            "pf": 3.099348,
+            "profit_aed": 322.04,
+            "trades": 57
+          },
+          "2025-12": {
+            "pf": 3.937022,
+            "profit_aed": 514.86,
+            "trades": 95
+          },
+          "2026-01": {
+            "pf": 15.602964,
+            "profit_aed": 5942.53,
+            "trades": 273
+          },
+          "2026-02": {
+            "pf": 14.752824,
+            "profit_aed": 7744.49,
+            "trades": 230
+          },
+          "2026-03": {
+            "pf": 22.760207,
+            "profit_aed": 10489.29,
+            "trades": 232
+          },
+          "2026-04": {
+            "pf": 6.645027,
+            "profit_aed": 5011.26,
+            "trades": 199
+          },
+          "2026-05": {
+            "pf": 7.047067,
+            "profit_aed": 1753.71,
+            "trades": 180
+          },
+          "2026-06": {
+            "pf": 0.553671,
+            "profit_aed": -273.14,
+            "trades": 60
+          }
+        },
+        "by_year": {
+          "2017": {
+            "pf": 3.895738,
+            "profit_aed": 226.91,
+            "trades": 126
+          },
+          "2018": {
+            "pf": 5.166909,
+            "profit_aed": 401.94,
+            "trades": 176
+          },
+          "2019": {
+            "pf": 5.343567,
+            "profit_aed": 667.78,
+            "trades": 180
+          },
+          "2020": {
+            "pf": 5.333046,
+            "profit_aed": 6733.12,
+            "trades": 542
+          },
+          "2021": {
+            "pf": 3.467485,
+            "profit_aed": 6060.81,
+            "trades": 732
+          },
+          "2022": {
+            "pf": 5.538426,
+            "profit_aed": 7012.05,
+            "trades": 663
+          },
+          "2023": {
+            "pf": 2.858536,
+            "profit_aed": 6096.37,
+            "trades": 724
+          },
+          "2024": {
+            "pf": 4.528386,
+            "profit_aed": 2924.82,
+            "trades": 401
+          },
+          "2025": {
+            "pf": 4.114991,
+            "profit_aed": 4776.87,
+            "trades": 652
+          },
+          "2026": {
+            "pf": 10.46019,
+            "profit_aed": 30668.14,
+            "trades": 1174
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 15.793197,
+          "top_positive_year_share_pct": 46.772452
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A3_no_slots_long_2017_2026_model1_daily.csv",
+        "daily_sharpe_aed": 2.811448,
+        "expectancy_aed": 12.210207,
+        "intra_dd_pct": 3.094677,
+        "long_short": {
+          "BUY": {
+            "pf": 4.999269,
+            "profit_aed": 52988.67,
+            "trades": 3278
+          },
+          "SELL": {
+            "pf": 9.28382,
+            "profit_aed": 12580.14,
+            "trades": 2092
+          }
+        },
+        "max_dd_pct": 5.299989,
+        "max_dd_time": "2020.07.28 13:38",
+        "pf": 5.439856,
+        "profit_aed": 65568.81,
+        "return_per_dd": 12371.499262,
+        "summary": "experiments/mt5_native/smc_exp2810_A3_no_slots_long_2017_2026_model1_dep1600_summary.json",
+        "trades": 5370,
+        "variant": "A3_no_slots",
+        "win_rate_pct": 84.115456,
+        "window": "long_2017_2026_model1"
+      },
+      "A4_no_coordinate_layers": {
+        "by_month": {
+          "2017-04": {
+            "pf": null,
+            "profit_aed": 52.78,
+            "trades": 1
+          },
+          "2017-06": {
+            "pf": 0.171365,
+            "profit_aed": -11.17,
+            "trades": 3
+          },
+          "2017-07": {
+            "pf": 0.640948,
+            "profit_aed": -7.12,
+            "trades": 2
+          },
+          "2017-08": {
+            "pf": 0.009987,
+            "profit_aed": -76.33,
+            "trades": 2
+          },
+          "2017-09": {
+            "pf": null,
+            "profit_aed": 1.29,
+            "trades": 1
+          },
+          "2018-01": {
+            "pf": null,
+            "profit_aed": 4.22,
+            "trades": 1
+          },
+          "2018-02": {
+            "pf": 10.072917,
+            "profit_aed": 60.97,
+            "trades": 3
+          },
+          "2018-05": {
+            "pf": null,
+            "profit_aed": 6.72,
+            "trades": 1
+          },
+          "2018-08": {
+            "pf": null,
+            "profit_aed": 32.39,
+            "trades": 1
+          },
+          "2018-11": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2019-01": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2019-05": {
+            "pf": null,
+            "profit_aed": 11.75,
+            "trades": 1
+          },
+          "2019-06": {
+            "pf": null,
+            "profit_aed": 12.89,
+            "trades": 1
+          },
+          "2019-07": {
+            "pf": null,
+            "profit_aed": 10.17,
+            "trades": 1
+          },
+          "2019-08": {
+            "pf": null,
+            "profit_aed": 35.85,
+            "trades": 2
+          },
+          "2019-09": {
+            "pf": 0.17284,
+            "profit_aed": -24.79,
+            "trades": 3
+          },
+          "2019-10": {
+            "pf": null,
+            "profit_aed": 9.0,
+            "trades": 2
+          },
+          "2019-11": {
+            "pf": null,
+            "profit_aed": 1.03,
+            "trades": 1
+          },
+          "2020-01": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2020-03": {
+            "pf": null,
+            "profit_aed": 71.76,
+            "trades": 4
+          },
+          "2020-04": {
+            "pf": 1.466536,
+            "profit_aed": 14.29,
+            "trades": 7
+          },
+          "2020-05": {
+            "pf": 3.116667,
+            "profit_aed": 41.91,
+            "trades": 4
+          },
+          "2020-06": {
+            "pf": 0.172306,
+            "profit_aed": -42.32,
+            "trades": 2
+          },
+          "2020-07": {
+            "pf": null,
+            "profit_aed": 34.39,
+            "trades": 4
+          },
+          "2020-08": {
+            "pf": null,
+            "profit_aed": 48.67,
+            "trades": 2
+          },
+          "2020-09": {
+            "pf": null,
+            "profit_aed": 22.81,
+            "trades": 4
+          },
+          "2020-11": {
+            "pf": 0.036321,
+            "profit_aed": -20.43,
+            "trades": 2
+          },
+          "2020-12": {
+            "pf": 1.291065,
+            "profit_aed": 17.95,
+            "trades": 3
+          },
+          "2021-01": {
+            "pf": null,
+            "profit_aed": 4.78,
+            "trades": 2
+          },
+          "2021-02": {
+            "pf": 2.379251,
+            "profit_aed": 88.41,
+            "trades": 4
+          },
+          "2021-03": {
+            "pf": 0.0,
+            "profit_aed": -146.93,
+            "trades": 2
+          },
+          "2021-04": {
+            "pf": null,
+            "profit_aed": 9.66,
+            "trades": 2
+          },
+          "2021-05": {
+            "pf": null,
+            "profit_aed": 72.97,
+            "trades": 3
+          },
+          "2021-06": {
+            "pf": null,
+            "profit_aed": 13.95,
+            "trades": 4
+          },
+          "2021-07": {
+            "pf": 0.553433,
+            "profit_aed": -29.46,
+            "trades": 3
+          },
+          "2021-08": {
+            "pf": null,
+            "profit_aed": 78.09,
+            "trades": 2
+          },
+          "2021-09": {
+            "pf": 0.29101,
+            "profit_aed": -16.64,
+            "trades": 3
+          },
+          "2021-10": {
+            "pf": null,
+            "profit_aed": 15.5,
+            "trades": 2
+          },
+          "2021-11": {
+            "pf": null,
+            "profit_aed": 48.3,
+            "trades": 2
+          },
+          "2021-12": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2022-01": {
+            "pf": null,
+            "profit_aed": 63.39,
+            "trades": 1
+          },
+          "2022-02": {
+            "pf": 2.434383,
+            "profit_aed": 51.48,
+            "trades": 4
+          },
+          "2022-03": {
+            "pf": null,
+            "profit_aed": 5.88,
+            "trades": 3
+          },
+          "2022-04": {
+            "pf": null,
+            "profit_aed": 114.9,
+            "trades": 5
+          },
+          "2022-05": {
+            "pf": null,
+            "profit_aed": 62.74,
+            "trades": 3
+          },
+          "2022-06": {
+            "pf": 5.811407,
+            "profit_aed": 189.81,
+            "trades": 6
+          },
+          "2022-07": {
+            "pf": null,
+            "profit_aed": 101.08,
+            "trades": 4
+          },
+          "2022-08": {
+            "pf": 2.894438,
+            "profit_aed": 183.23,
+            "trades": 5
+          },
+          "2022-09": {
+            "pf": 2.949637,
+            "profit_aed": 42.97,
+            "trades": 4
+          },
+          "2022-10": {
+            "pf": null,
+            "profit_aed": 95.61,
+            "trades": 4
+          },
+          "2022-11": {
+            "pf": null,
+            "profit_aed": 296.09,
+            "trades": 2
+          },
+          "2022-12": {
+            "pf": null,
+            "profit_aed": 14.62,
+            "trades": 2
+          },
+          "2023-01": {
+            "pf": 0.301545,
+            "profit_aed": -70.09,
+            "trades": 5
+          },
+          "2023-02": {
+            "pf": 14.52,
+            "profit_aed": 121.68,
+            "trades": 3
+          },
+          "2023-03": {
+            "pf": null,
+            "profit_aed": 241.87,
+            "trades": 5
+          },
+          "2023-04": {
+            "pf": 69.135965,
+            "profit_aed": 155.35,
+            "trades": 5
+          },
+          "2023-05": {
+            "pf": null,
+            "profit_aed": 2.06,
+            "trades": 2
+          },
+          "2023-06": {
+            "pf": null,
+            "profit_aed": 39.19,
+            "trades": 4
+          },
+          "2023-07": {
+            "pf": null,
+            "profit_aed": 98.62,
+            "trades": 4
+          },
+          "2023-08": {
+            "pf": null,
+            "profit_aed": 163.55,
+            "trades": 4
+          },
+          "2023-09": {
+            "pf": null,
+            "profit_aed": 4.89,
+            "trades": 2
+          },
+          "2023-10": {
+            "pf": 0.027845,
+            "profit_aed": -35.96,
+            "trades": 2
+          },
+          "2023-11": {
+            "pf": null,
+            "profit_aed": 59.54,
+            "trades": 5
+          },
+          "2023-12": {
+            "pf": null,
+            "profit_aed": 6.43,
+            "trades": 3
+          },
+          "2024-01": {
+            "pf": 0.015366,
+            "profit_aed": -249.26,
+            "trades": 2
+          },
+          "2024-02": {
+            "pf": null,
+            "profit_aed": 29.39,
+            "trades": 3
+          },
+          "2024-03": {
+            "pf": 1.097968,
+            "profit_aed": 2.17,
+            "trades": 3
+          },
+          "2024-04": {
+            "pf": null,
+            "profit_aed": 45.21,
+            "trades": 3
+          },
+          "2024-05": {
+            "pf": null,
+            "profit_aed": 222.86,
+            "trades": 6
+          },
+          "2024-06": {
+            "pf": null,
+            "profit_aed": 140.77,
+            "trades": 6
+          },
+          "2024-07": {
+            "pf": null,
+            "profit_aed": 20.05,
+            "trades": 4
+          },
+          "2024-08": {
+            "pf": null,
+            "profit_aed": 8.74,
+            "trades": 2
+          },
+          "2024-09": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 2
+          },
+          "2024-10": {
+            "pf": 1.527468,
+            "profit_aed": 51.08,
+            "trades": 10
+          },
+          "2024-11": {
+            "pf": null,
+            "profit_aed": 71.39,
+            "trades": 3
+          },
+          "2024-12": {
+            "pf": null,
+            "profit_aed": 2.83,
+            "trades": 1
+          },
+          "2025-01": {
+            "pf": 0.67648,
+            "profit_aed": -50.66,
+            "trades": 5
+          },
+          "2025-02": {
+            "pf": null,
+            "profit_aed": 64.97,
+            "trades": 3
+          },
+          "2025-03": {
+            "pf": null,
+            "profit_aed": 45.9,
+            "trades": 3
+          },
+          "2025-04": {
+            "pf": null,
+            "profit_aed": 97.31,
+            "trades": 5
+          },
+          "2025-05": {
+            "pf": null,
+            "profit_aed": 269.94,
+            "trades": 4
+          },
+          "2025-06": {
+            "pf": 745.230769,
+            "profit_aed": 193.5,
+            "trades": 4
+          },
+          "2025-07": {
+            "pf": 6.719008,
+            "profit_aed": 235.28,
+            "trades": 10
+          },
+          "2025-08": {
+            "pf": null,
+            "profit_aed": 1.54,
+            "trades": 1
+          },
+          "2025-09": {
+            "pf": 1.170508,
+            "profit_aed": 61.63,
+            "trades": 7
+          },
+          "2025-10": {
+            "pf": 4.529885,
+            "profit_aed": 285.25,
+            "trades": 5
+          },
+          "2025-11": {
+            "pf": null,
+            "profit_aed": 74.2,
+            "trades": 3
+          },
+          "2025-12": {
+            "pf": null,
+            "profit_aed": 285.68,
+            "trades": 10
+          },
+          "2026-01": {
+            "pf": null,
+            "profit_aed": 664.4,
+            "trades": 12
+          },
+          "2026-02": {
+            "pf": null,
+            "profit_aed": 1987.98,
+            "trades": 17
+          },
+          "2026-03": {
+            "pf": null,
+            "profit_aed": 642.73,
+            "trades": 12
+          },
+          "2026-04": {
+            "pf": null,
+            "profit_aed": 960.84,
+            "trades": 8
+          },
+          "2026-05": {
+            "pf": null,
+            "profit_aed": 119.33,
+            "trades": 10
+          },
+          "2026-06": {
+            "pf": 0.782798,
+            "profit_aed": -43.84,
+            "trades": 10
+          }
+        },
+        "by_year": {
+          "2017": {
+            "pf": 0.632733,
+            "profit_aed": -40.55,
+            "trades": 9
+          },
+          "2018": {
+            "pf": 16.78869,
+            "profit_aed": 106.1,
+            "trades": 7
+          },
+          "2019": {
+            "pf": 2.925259,
+            "profit_aed": 57.7,
+            "trades": 12
+          },
+          "2020": {
+            "pf": 2.034702,
+            "profit_aed": 190.83,
+            "trades": 33
+          },
+          "2021": {
+            "pf": 1.467368,
+            "profit_aed": 140.43,
+            "trades": 30
+          },
+          "2022": {
+            "pf": 7.294693,
+            "profit_aed": 1221.8,
+            "trades": 43
+          },
+          "2023": {
+            "pf": 6.296259,
+            "profit_aed": 787.13,
+            "trades": 44
+          },
+          "2024": {
+            "pf": 1.932525,
+            "profit_aed": 347.03,
+            "trades": 45
+          },
+          "2025": {
+            "pf": 3.443639,
+            "profit_aed": 1564.54,
+            "trades": 60
+          },
+          "2026": {
+            "pf": 22.45977,
+            "profit_aed": 4331.44,
+            "trades": 69
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 20.857057,
+          "top_positive_year_share_pct": 49.519149
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A4_no_coordinate_layers_long_2017_2026_model1_daily.csv",
+        "daily_sharpe_aed": 1.605467,
+        "expectancy_aed": 24.734233,
+        "intra_dd_pct": 5.820071,
+        "long_short": {
+          "BUY": {
+            "pf": 6.705531,
+            "profit_aed": 5042.32,
+            "trades": 110
+          },
+          "SELL": {
+            "pf": 3.807354,
+            "profit_aed": 3664.13,
+            "trades": 242
+          }
+        },
+        "max_dd_pct": 8.279387,
+        "max_dd_time": "2024.05.03 14:00",
+        "pf": 4.977455,
+        "profit_aed": 8706.45,
+        "return_per_dd": 1051.581476,
+        "summary": "experiments/mt5_native/smc_exp2810_A4_no_coordinate_layers_long_2017_2026_model1_dep1600_summary.json",
+        "trades": 352,
+        "variant": "A4_no_coordinate_layers",
+        "win_rate_pct": 88.636364,
+        "window": "long_2017_2026_model1"
+      },
+      "A5_core_only": {
+        "by_month": {
+          "2017-04": {
+            "pf": null,
+            "profit_aed": 52.78,
+            "trades": 1
+          },
+          "2017-06": {
+            "pf": 0.171365,
+            "profit_aed": -11.17,
+            "trades": 3
+          },
+          "2017-07": {
+            "pf": 0.640948,
+            "profit_aed": -7.12,
+            "trades": 2
+          },
+          "2017-08": {
+            "pf": 0.009987,
+            "profit_aed": -76.33,
+            "trades": 2
+          },
+          "2017-09": {
+            "pf": null,
+            "profit_aed": 1.29,
+            "trades": 1
+          },
+          "2018-01": {
+            "pf": null,
+            "profit_aed": 4.22,
+            "trades": 1
+          },
+          "2018-02": {
+            "pf": 10.072917,
+            "profit_aed": 60.97,
+            "trades": 3
+          },
+          "2018-05": {
+            "pf": null,
+            "profit_aed": 6.72,
+            "trades": 1
+          },
+          "2018-08": {
+            "pf": null,
+            "profit_aed": 32.39,
+            "trades": 1
+          },
+          "2018-11": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2019-01": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2019-05": {
+            "pf": null,
+            "profit_aed": 11.75,
+            "trades": 1
+          },
+          "2019-06": {
+            "pf": null,
+            "profit_aed": 12.89,
+            "trades": 1
+          },
+          "2019-07": {
+            "pf": null,
+            "profit_aed": 10.17,
+            "trades": 1
+          },
+          "2019-08": {
+            "pf": null,
+            "profit_aed": 35.85,
+            "trades": 2
+          },
+          "2019-09": {
+            "pf": 0.17284,
+            "profit_aed": -24.79,
+            "trades": 3
+          },
+          "2019-10": {
+            "pf": null,
+            "profit_aed": 9.0,
+            "trades": 2
+          },
+          "2019-11": {
+            "pf": null,
+            "profit_aed": 1.03,
+            "trades": 1
+          },
+          "2020-01": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2020-03": {
+            "pf": null,
+            "profit_aed": 71.76,
+            "trades": 4
+          },
+          "2020-04": {
+            "pf": 1.466536,
+            "profit_aed": 14.29,
+            "trades": 7
+          },
+          "2020-05": {
+            "pf": 3.116667,
+            "profit_aed": 41.91,
+            "trades": 4
+          },
+          "2020-06": {
+            "pf": 0.172306,
+            "profit_aed": -42.32,
+            "trades": 2
+          },
+          "2020-07": {
+            "pf": null,
+            "profit_aed": 34.39,
+            "trades": 4
+          },
+          "2020-08": {
+            "pf": null,
+            "profit_aed": 48.67,
+            "trades": 2
+          },
+          "2020-09": {
+            "pf": null,
+            "profit_aed": 22.81,
+            "trades": 4
+          },
+          "2020-11": {
+            "pf": 0.036321,
+            "profit_aed": -20.43,
+            "trades": 2
+          },
+          "2020-12": {
+            "pf": 1.291065,
+            "profit_aed": 17.95,
+            "trades": 3
+          },
+          "2021-01": {
+            "pf": null,
+            "profit_aed": 4.78,
+            "trades": 2
+          },
+          "2021-02": {
+            "pf": 2.379251,
+            "profit_aed": 88.41,
+            "trades": 4
+          },
+          "2021-03": {
+            "pf": 0.0,
+            "profit_aed": -146.93,
+            "trades": 2
+          },
+          "2021-04": {
+            "pf": null,
+            "profit_aed": 9.66,
+            "trades": 2
+          },
+          "2021-05": {
+            "pf": null,
+            "profit_aed": 72.97,
+            "trades": 3
+          },
+          "2021-06": {
+            "pf": null,
+            "profit_aed": 13.95,
+            "trades": 4
+          },
+          "2021-07": {
+            "pf": 0.553433,
+            "profit_aed": -29.46,
+            "trades": 3
+          },
+          "2021-08": {
+            "pf": null,
+            "profit_aed": 78.09,
+            "trades": 2
+          },
+          "2021-09": {
+            "pf": 0.29101,
+            "profit_aed": -16.64,
+            "trades": 3
+          },
+          "2021-10": {
+            "pf": null,
+            "profit_aed": 15.5,
+            "trades": 2
+          },
+          "2021-11": {
+            "pf": null,
+            "profit_aed": 48.3,
+            "trades": 2
+          },
+          "2021-12": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 1
+          },
+          "2022-01": {
+            "pf": null,
+            "profit_aed": 63.39,
+            "trades": 1
+          },
+          "2022-02": {
+            "pf": 2.434383,
+            "profit_aed": 51.48,
+            "trades": 4
+          },
+          "2022-03": {
+            "pf": null,
+            "profit_aed": 5.88,
+            "trades": 3
+          },
+          "2022-04": {
+            "pf": null,
+            "profit_aed": 114.9,
+            "trades": 5
+          },
+          "2022-05": {
+            "pf": null,
+            "profit_aed": 62.74,
+            "trades": 3
+          },
+          "2022-06": {
+            "pf": 5.811407,
+            "profit_aed": 189.81,
+            "trades": 6
+          },
+          "2022-07": {
+            "pf": null,
+            "profit_aed": 101.08,
+            "trades": 4
+          },
+          "2022-08": {
+            "pf": 2.894438,
+            "profit_aed": 183.23,
+            "trades": 5
+          },
+          "2022-09": {
+            "pf": 2.949637,
+            "profit_aed": 42.97,
+            "trades": 4
+          },
+          "2022-10": {
+            "pf": null,
+            "profit_aed": 95.61,
+            "trades": 4
+          },
+          "2022-11": {
+            "pf": null,
+            "profit_aed": 296.09,
+            "trades": 2
+          },
+          "2022-12": {
+            "pf": null,
+            "profit_aed": 14.62,
+            "trades": 2
+          },
+          "2023-01": {
+            "pf": 0.301545,
+            "profit_aed": -70.09,
+            "trades": 5
+          },
+          "2023-02": {
+            "pf": 14.52,
+            "profit_aed": 121.68,
+            "trades": 3
+          },
+          "2023-03": {
+            "pf": null,
+            "profit_aed": 241.87,
+            "trades": 5
+          },
+          "2023-04": {
+            "pf": 69.135965,
+            "profit_aed": 155.35,
+            "trades": 5
+          },
+          "2023-05": {
+            "pf": null,
+            "profit_aed": 2.06,
+            "trades": 2
+          },
+          "2023-06": {
+            "pf": null,
+            "profit_aed": 39.19,
+            "trades": 4
+          },
+          "2023-07": {
+            "pf": null,
+            "profit_aed": 98.62,
+            "trades": 4
+          },
+          "2023-08": {
+            "pf": null,
+            "profit_aed": 163.55,
+            "trades": 4
+          },
+          "2023-09": {
+            "pf": null,
+            "profit_aed": 4.89,
+            "trades": 2
+          },
+          "2023-10": {
+            "pf": 0.027845,
+            "profit_aed": -35.96,
+            "trades": 2
+          },
+          "2023-11": {
+            "pf": null,
+            "profit_aed": 59.54,
+            "trades": 5
+          },
+          "2023-12": {
+            "pf": null,
+            "profit_aed": 6.43,
+            "trades": 3
+          },
+          "2024-01": {
+            "pf": 0.015366,
+            "profit_aed": -249.26,
+            "trades": 2
+          },
+          "2024-02": {
+            "pf": null,
+            "profit_aed": 29.39,
+            "trades": 3
+          },
+          "2024-03": {
+            "pf": 1.097968,
+            "profit_aed": 2.17,
+            "trades": 3
+          },
+          "2024-04": {
+            "pf": null,
+            "profit_aed": 45.21,
+            "trades": 3
+          },
+          "2024-05": {
+            "pf": null,
+            "profit_aed": 222.86,
+            "trades": 6
+          },
+          "2024-06": {
+            "pf": null,
+            "profit_aed": 140.77,
+            "trades": 6
+          },
+          "2024-07": {
+            "pf": null,
+            "profit_aed": 20.05,
+            "trades": 4
+          },
+          "2024-08": {
+            "pf": null,
+            "profit_aed": 8.74,
+            "trades": 2
+          },
+          "2024-09": {
+            "pf": null,
+            "profit_aed": 1.8,
+            "trades": 2
+          },
+          "2024-10": {
+            "pf": 1.527468,
+            "profit_aed": 51.08,
+            "trades": 10
+          },
+          "2024-11": {
+            "pf": null,
+            "profit_aed": 71.39,
+            "trades": 3
+          },
+          "2024-12": {
+            "pf": null,
+            "profit_aed": 2.83,
+            "trades": 1
+          },
+          "2025-01": {
+            "pf": 0.67648,
+            "profit_aed": -50.66,
+            "trades": 5
+          },
+          "2025-02": {
+            "pf": null,
+            "profit_aed": 64.97,
+            "trades": 3
+          },
+          "2025-03": {
+            "pf": null,
+            "profit_aed": 45.9,
+            "trades": 3
+          },
+          "2025-04": {
+            "pf": null,
+            "profit_aed": 97.31,
+            "trades": 5
+          },
+          "2025-05": {
+            "pf": null,
+            "profit_aed": 269.94,
+            "trades": 4
+          },
+          "2025-06": {
+            "pf": 745.230769,
+            "profit_aed": 193.5,
+            "trades": 4
+          },
+          "2025-07": {
+            "pf": 6.719008,
+            "profit_aed": 235.28,
+            "trades": 10
+          },
+          "2025-08": {
+            "pf": null,
+            "profit_aed": 1.54,
+            "trades": 1
+          },
+          "2025-09": {
+            "pf": 1.170508,
+            "profit_aed": 61.63,
+            "trades": 7
+          },
+          "2025-10": {
+            "pf": 4.529885,
+            "profit_aed": 285.25,
+            "trades": 5
+          },
+          "2025-11": {
+            "pf": null,
+            "profit_aed": 74.2,
+            "trades": 3
+          },
+          "2025-12": {
+            "pf": null,
+            "profit_aed": 285.68,
+            "trades": 10
+          },
+          "2026-01": {
+            "pf": null,
+            "profit_aed": 664.4,
+            "trades": 12
+          },
+          "2026-02": {
+            "pf": null,
+            "profit_aed": 1987.98,
+            "trades": 17
+          },
+          "2026-03": {
+            "pf": null,
+            "profit_aed": 642.73,
+            "trades": 12
+          },
+          "2026-04": {
+            "pf": null,
+            "profit_aed": 960.84,
+            "trades": 8
+          },
+          "2026-05": {
+            "pf": null,
+            "profit_aed": 119.33,
+            "trades": 10
+          },
+          "2026-06": {
+            "pf": 0.782798,
+            "profit_aed": -43.84,
+            "trades": 10
+          }
+        },
+        "by_year": {
+          "2017": {
+            "pf": 0.632733,
+            "profit_aed": -40.55,
+            "trades": 9
+          },
+          "2018": {
+            "pf": 16.78869,
+            "profit_aed": 106.1,
+            "trades": 7
+          },
+          "2019": {
+            "pf": 2.925259,
+            "profit_aed": 57.7,
+            "trades": 12
+          },
+          "2020": {
+            "pf": 2.034702,
+            "profit_aed": 190.83,
+            "trades": 33
+          },
+          "2021": {
+            "pf": 1.467368,
+            "profit_aed": 140.43,
+            "trades": 30
+          },
+          "2022": {
+            "pf": 7.294693,
+            "profit_aed": 1221.8,
+            "trades": 43
+          },
+          "2023": {
+            "pf": 6.296259,
+            "profit_aed": 787.13,
+            "trades": 44
+          },
+          "2024": {
+            "pf": 1.932525,
+            "profit_aed": 347.03,
+            "trades": 45
+          },
+          "2025": {
+            "pf": 3.443639,
+            "profit_aed": 1564.54,
+            "trades": 60
+          },
+          "2026": {
+            "pf": 22.45977,
+            "profit_aed": 4331.44,
+            "trades": 69
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 20.857057,
+          "top_positive_year_share_pct": 49.519149
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A5_core_only_long_2017_2026_model1_daily.csv",
+        "daily_sharpe_aed": 1.605467,
+        "expectancy_aed": 24.734233,
+        "intra_dd_pct": 5.820071,
+        "long_short": {
+          "BUY": {
+            "pf": 6.705531,
+            "profit_aed": 5042.32,
+            "trades": 110
+          },
+          "SELL": {
+            "pf": 3.807354,
+            "profit_aed": 3664.13,
+            "trades": 242
+          }
+        },
+        "max_dd_pct": 8.279387,
+        "max_dd_time": "2024.05.03 14:00",
+        "pf": 4.977455,
+        "profit_aed": 8706.45,
+        "return_per_dd": 1051.581476,
+        "summary": "experiments/mt5_native/smc_exp2810_A5_core_only_long_2017_2026_model1_dep1600_summary.json",
+        "trades": 352,
+        "variant": "A5_core_only",
+        "win_rate_pct": 88.636364,
+        "window": "long_2017_2026_model1"
+      }
+    },
+    "rt_2026_jun21_model4": {
+      "A0_full_copy": {
+        "by_month": {
+          "2026-01": {
+            "pf": 6.586478,
+            "profit_aed": 3357.25,
+            "trades": 327
+          },
+          "2026-02": {
+            "pf": 11.702623,
+            "profit_aed": 11339.75,
+            "trades": 383
+          },
+          "2026-03": {
+            "pf": 15.191331,
+            "profit_aed": 13913.89,
+            "trades": 379
+          },
+          "2026-04": {
+            "pf": 8.951834,
+            "profit_aed": 14181.38,
+            "trades": 402
+          },
+          "2026-05": {
+            "pf": 7.395001,
+            "profit_aed": 3955.82,
+            "trades": 307
+          },
+          "2026-06": {
+            "pf": 1.004495,
+            "profit_aed": 3.87,
+            "trades": 123
+          }
+        },
+        "by_year": {
+          "2026": {
+            "pf": 8.918827,
+            "profit_aed": 46751.96,
+            "trades": 1921
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 30.333231,
+          "top_positive_year_share_pct": 100.0
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A0_full_copy_rt_2026_jun21_model4_daily.csv",
+        "daily_sharpe_aed": 6.57966,
+        "expectancy_aed": 24.337303,
+        "intra_dd_pct": 3.376466,
+        "long_short": {
+          "BUY": {
+            "pf": 9.403702,
+            "profit_aed": 45313.94,
+            "trades": 1173
+          },
+          "SELL": {
+            "pf": 3.80995,
+            "profit_aed": 1438.02,
+            "trades": 748
+          }
+        },
+        "max_dd_pct": 6.001481,
+        "max_dd_time": "2026.03.27 13:33",
+        "pf": 8.918827,
+        "profit_aed": 46751.96,
+        "return_per_dd": 7790.070484,
+        "summary": "experiments/mt5_native/smc_exp2810_A0_full_copy_rt_2026_jun21_model4_dep1600_summary.json",
+        "trades": 1921,
+        "variant": "A0_full_copy",
+        "win_rate_pct": 80.530973,
+        "window": "rt_2026_jun21_model4"
+      },
+      "A1_no_hourpins": {
+        "by_month": {
+          "2026-01": {
+            "pf": 2.977247,
+            "profit_aed": 3295.22,
+            "trades": 460
+          },
+          "2026-02": {
+            "pf": 4.408252,
+            "profit_aed": 9773.3,
+            "trades": 522
+          },
+          "2026-03": {
+            "pf": 6.168528,
+            "profit_aed": 13126.15,
+            "trades": 531
+          },
+          "2026-04": {
+            "pf": 4.815208,
+            "profit_aed": 13016.23,
+            "trades": 538
+          },
+          "2026-05": {
+            "pf": 2.052641,
+            "profit_aed": 2646.16,
+            "trades": 532
+          },
+          "2026-06": {
+            "pf": 0.655886,
+            "profit_aed": -782.78,
+            "trades": 282
+          }
+        },
+        "by_year": {
+          "2026": {
+            "pf": 3.689162,
+            "profit_aed": 41074.28,
+            "trades": 2865
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 31.359465,
+          "top_positive_year_share_pct": 100.0
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A1_no_hourpins_rt_2026_jun21_model4_daily.csv",
+        "daily_sharpe_aed": 5.908249,
+        "expectancy_aed": 14.336572,
+        "intra_dd_pct": 3.269125,
+        "long_short": {
+          "BUY": {
+            "pf": 3.709388,
+            "profit_aed": 39618.33,
+            "trades": 2022
+          },
+          "SELL": {
+            "pf": 3.235109,
+            "profit_aed": 1455.95,
+            "trades": 843
+          }
+        },
+        "max_dd_pct": 6.712562,
+        "max_dd_time": "2026.01.30 09:35",
+        "pf": 3.689162,
+        "profit_aed": 41074.28,
+        "return_per_dd": 6119.016852,
+        "summary": "experiments/mt5_native/smc_exp2810_A1_no_hourpins_rt_2026_jun21_model4_dep1600_summary.json",
+        "trades": 2865,
+        "variant": "A1_no_hourpins",
+        "win_rate_pct": 69.91274,
+        "window": "rt_2026_jun21_model4"
+      },
+      "A2_no_pricepins": {
+        "by_month": {
+          "2026-01": {
+            "pf": 6.844597,
+            "profit_aed": 2931.65,
+            "trades": 252
+          },
+          "2026-02": {
+            "pf": 10.89148,
+            "profit_aed": 7998.35,
+            "trades": 311
+          },
+          "2026-03": {
+            "pf": 12.756988,
+            "profit_aed": 5367.3,
+            "trades": 248
+          },
+          "2026-04": {
+            "pf": 7.357758,
+            "profit_aed": 9927.13,
+            "trades": 318
+          },
+          "2026-05": {
+            "pf": 6.057166,
+            "profit_aed": 2996.32,
+            "trades": 203
+          },
+          "2026-06": {
+            "pf": 1.004495,
+            "profit_aed": 3.87,
+            "trades": 123
+          }
+        },
+        "by_year": {
+          "2026": {
+            "pf": 7.111879,
+            "profit_aed": 29224.62,
+            "trades": 1455
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 33.96838,
+          "top_positive_year_share_pct": 100.0
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A2_no_pricepins_rt_2026_jun21_model4_daily.csv",
+        "daily_sharpe_aed": 5.863174,
+        "expectancy_aed": 20.085649,
+        "intra_dd_pct": 3.381048,
+        "long_short": {
+          "BUY": {
+            "pf": 7.510286,
+            "profit_aed": 28180.62,
+            "trades": 936
+          },
+          "SELL": {
+            "pf": 3.304738,
+            "profit_aed": 1044.0,
+            "trades": 519
+          }
+        },
+        "max_dd_pct": 6.665049,
+        "max_dd_time": "2026.03.27 13:33",
+        "pf": 7.111879,
+        "profit_aed": 29224.62,
+        "return_per_dd": 4384.756961,
+        "summary": "experiments/mt5_native/smc_exp2810_A2_no_pricepins_rt_2026_jun21_model4_dep1600_summary.json",
+        "trades": 1455,
+        "variant": "A2_no_pricepins",
+        "win_rate_pct": 77.594502,
+        "window": "rt_2026_jun21_model4"
+      },
+      "A3_no_slots": {
+        "by_month": {
+          "2026-01": {
+            "pf": 7.645986,
+            "profit_aed": 2543.02,
+            "trades": 228
+          },
+          "2026-02": {
+            "pf": 7.551478,
+            "profit_aed": 4516.72,
+            "trades": 228
+          },
+          "2026-03": {
+            "pf": 10.286011,
+            "profit_aed": 8050.6,
+            "trades": 243
+          },
+          "2026-04": {
+            "pf": 7.090234,
+            "profit_aed": 4827.18,
+            "trades": 194
+          },
+          "2026-05": {
+            "pf": 10.945023,
+            "profit_aed": 1222.84,
+            "trades": 169
+          },
+          "2026-06": {
+            "pf": 0.502532,
+            "profit_aed": -311.45,
+            "trades": 65
+          }
+        },
+        "by_year": {
+          "2026": {
+            "pf": 6.98993,
+            "profit_aed": 20848.91,
+            "trades": 1127
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 38.045667,
+          "top_positive_year_share_pct": 100.0
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A3_no_slots_rt_2026_jun21_model4_daily.csv",
+        "daily_sharpe_aed": 6.159998,
+        "expectancy_aed": 18.499476,
+        "intra_dd_pct": 3.548448,
+        "long_short": {
+          "BUY": {
+            "pf": 7.008281,
+            "profit_aed": 19735.4,
+            "trades": 734
+          },
+          "SELL": {
+            "pf": 6.682333,
+            "profit_aed": 1113.51,
+            "trades": 393
+          }
+        },
+        "max_dd_pct": 7.712095,
+        "max_dd_time": "2026.03.05 19:35",
+        "pf": 6.98993,
+        "profit_aed": 20848.91,
+        "return_per_dd": 2703.404198,
+        "summary": "experiments/mt5_native/smc_exp2810_A3_no_slots_rt_2026_jun21_model4_dep1600_summary.json",
+        "trades": 1127,
+        "variant": "A3_no_slots",
+        "win_rate_pct": 83.318545,
+        "window": "rt_2026_jun21_model4"
+      },
+      "A4_no_coordinate_layers": {
+        "by_month": {
+          "2026-01": {
+            "pf": null,
+            "profit_aed": 301.2,
+            "trades": 11
+          },
+          "2026-02": {
+            "pf": 557.558442,
+            "profit_aed": 428.55,
+            "trades": 17
+          },
+          "2026-03": {
+            "pf": 628.590909,
+            "profit_aed": 138.07,
+            "trades": 12
+          },
+          "2026-04": {
+            "pf": null,
+            "profit_aed": 899.74,
+            "trades": 8
+          },
+          "2026-05": {
+            "pf": 26.317269,
+            "profit_aed": 63.04,
+            "trades": 10
+          },
+          "2026-06": {
+            "pf": 0.437049,
+            "profit_aed": -114.02,
+            "trades": 10
+          }
+        },
+        "by_year": {
+          "2026": {
+            "pf": 9.332104,
+            "profit_aed": 1716.58,
+            "trades": 68
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 49.150005,
+          "top_positive_year_share_pct": 100.0
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A4_no_coordinate_layers_rt_2026_jun21_model4_daily.csv",
+        "daily_sharpe_aed": 2.764292,
+        "expectancy_aed": 25.243824,
+        "intra_dd_pct": 3.150378,
+        "long_short": {
+          "BUY": {
+            "pf": 9.496299,
+            "profit_aed": 1377.42,
+            "trades": 27
+          },
+          "SELL": {
+            "pf": 8.72574,
+            "profit_aed": 339.16,
+            "trades": 41
+          }
+        },
+        "max_dd_pct": 6.483468,
+        "max_dd_time": "2026.06.18 06:30",
+        "pf": 9.332104,
+        "profit_aed": 1716.58,
+        "return_per_dd": 264.762624,
+        "summary": "experiments/mt5_native/smc_exp2810_A4_no_coordinate_layers_rt_2026_jun21_model4_dep1600_summary.json",
+        "trades": 68,
+        "variant": "A4_no_coordinate_layers",
+        "win_rate_pct": 88.235294,
+        "window": "rt_2026_jun21_model4"
+      },
+      "A5_core_only": {
+        "by_month": {
+          "2026-01": {
+            "pf": null,
+            "profit_aed": 301.2,
+            "trades": 11
+          },
+          "2026-02": {
+            "pf": 557.558442,
+            "profit_aed": 428.55,
+            "trades": 17
+          },
+          "2026-03": {
+            "pf": 628.590909,
+            "profit_aed": 138.07,
+            "trades": 12
+          },
+          "2026-04": {
+            "pf": null,
+            "profit_aed": 899.74,
+            "trades": 8
+          },
+          "2026-05": {
+            "pf": 26.317269,
+            "profit_aed": 63.04,
+            "trades": 10
+          },
+          "2026-06": {
+            "pf": 0.437049,
+            "profit_aed": -114.02,
+            "trades": 10
+          }
+        },
+        "by_year": {
+          "2026": {
+            "pf": 9.332104,
+            "profit_aed": 1716.58,
+            "trades": 68
+          }
+        },
+        "concentration": {
+          "top_positive_month_share_pct": 49.150005,
+          "top_positive_year_share_pct": 100.0
+        },
+        "daily_series_csv": "experiments/mt5_native/analysis/exp2810_daily_series/smc_exp2810_A5_core_only_rt_2026_jun21_model4_daily.csv",
+        "daily_sharpe_aed": 2.764292,
+        "expectancy_aed": 25.243824,
+        "intra_dd_pct": 3.150378,
+        "long_short": {
+          "BUY": {
+            "pf": 9.496299,
+            "profit_aed": 1377.42,
+            "trades": 27
+          },
+          "SELL": {
+            "pf": 8.72574,
+            "profit_aed": 339.16,
+            "trades": 41
+          }
+        },
+        "max_dd_pct": 6.483468,
+        "max_dd_time": "2026.06.18 06:30",
+        "pf": 9.332104,
+        "profit_aed": 1716.58,
+        "return_per_dd": 264.762624,
+        "summary": "experiments/mt5_native/smc_exp2810_A5_core_only_rt_2026_jun21_model4_dep1600_summary.json",
+        "trades": 68,
+        "variant": "A5_core_only",
+        "win_rate_pct": 88.235294,
+        "window": "rt_2026_jun21_model4"
+      }
+    }
+  },
+  "run_summaries": {
+    "long_2017_2026_model1": {
+      "A0_full_copy": "experiments/mt5_native/smc_exp2810_A0_full_copy_long_2017_2026_model1_dep1600_summary.json",
+      "A1_no_hourpins": "experiments/mt5_native/smc_exp2810_A1_no_hourpins_long_2017_2026_model1_dep1600_summary.json",
+      "A2_no_pricepins": "experiments/mt5_native/smc_exp2810_A2_no_pricepins_long_2017_2026_model1_dep1600_summary.json",
+      "A3_no_slots": "experiments/mt5_native/smc_exp2810_A3_no_slots_long_2017_2026_model1_dep1600_summary.json",
+      "A4_no_coordinate_layers": "experiments/mt5_native/smc_exp2810_A4_no_coordinate_layers_long_2017_2026_model1_dep1600_summary.json",
+      "A5_core_only": "experiments/mt5_native/smc_exp2810_A5_core_only_long_2017_2026_model1_dep1600_summary.json"
+    },
+    "rt_2026_jun21_model4": {
+      "A0_full_copy": "experiments/mt5_native/smc_exp2810_A0_full_copy_rt_2026_jun21_model4_dep1600_summary.json",
+      "A1_no_hourpins": "experiments/mt5_native/smc_exp2810_A1_no_hourpins_rt_2026_jun21_model4_dep1600_summary.json",
+      "A2_no_pricepins": "experiments/mt5_native/smc_exp2810_A2_no_pricepins_rt_2026_jun21_model4_dep1600_summary.json",
+      "A3_no_slots": "experiments/mt5_native/smc_exp2810_A3_no_slots_rt_2026_jun21_model4_dep1600_summary.json",
+      "A4_no_coordinate_layers": "experiments/mt5_native/smc_exp2810_A4_no_coordinate_layers_rt_2026_jun21_model4_dep1600_summary.json",
+      "A5_core_only": "experiments/mt5_native/smc_exp2810_A5_core_only_rt_2026_jun21_model4_dep1600_summary.json"
+    }
+  },
+  "summary_json": "experiments/mt5_native/analysis/smc_exp2810_exp1801_ablation_phase2_summary.json",
+  "surprise": "A0 parity passed; coordinate attribution measured with switch-gated copy and paired daily block bootstrap.",
+  "variants": {
+    "A0_full_copy": {
+      "label": "A0 all coordinate layers ON",
+      "overrides": {
+        "InpAblCoreOnly": false,
+        "InpAblDisableHourPins": false,
+        "InpAblDisablePricePins": false,
+        "InpAblDisableSlots": false
+      }
+    },
+    "A1_no_hourpins": {
+      "label": "A1 disable exact hour pins",
+      "overrides": {
+        "InpAblDisableHourPins": true
+      }
+    },
+    "A2_no_pricepins": {
+      "label": "A2 disable absolute price-pin families",
+      "overrides": {
+        "InpAblDisablePricePins": true
+      }
+    },
+    "A3_no_slots": {
+      "label": "A3 disable slot/cluster families",
+      "overrides": {
+        "InpAblDisableSlots": true
+      }
+    },
+    "A4_no_coordinate_layers": {
+      "label": "A4 disable hour+price+slot coordinate layers",
+      "overrides": {
+        "InpAblDisableHourPins": true,
+        "InpAblDisablePricePins": true,
+        "InpAblDisableSlots": true
+      }
+    },
+    "A5_core_only": {
+      "label": "A5 structural core only",
+      "overrides": {
+        "InpAblCoreOnly": true
+      }
+    }
+  },
+  "windows": {
+    "long_2017_2026_model1": [
+      "2017.01.01",
+      "2026.06.22",
+      "1"
+    ],
+    "rt_2026_jun21_model4": [
+      "2026.01.01",
+      "2026.06.22",
+      "4"
+    ]
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "ea": "ea/CleanCoreV2A.mq5",
+  "ea_sha256": "67bdf0f66d04e30992fd34603d0f70af5f42ab7515bdb44a04fe7c0a1f4786cc",
+  "experiment": "exp2812_clean_core_v2a_permutation",
+  "method": "offline_python_reimplementation_block_permutation_diagnostic",
+  "mt5_custom_symbol_path": "not used; parked/not viable on this setup",
+  "mt5_reference": {
+    "heldout_rt_exp2804_core_a": {
+      "exists": true,
+      "intra_dd_pct": 28.05,
+      "max_dd_pct": 27.72,
+      "pf": 0.36,
+      "profit": -329.36,
+      "return_per_dd": -11.741889483065954,
+      "trades": 87
+    },
+    "train_exp2802_selected": {
+      "exists": true,
+      "intra_dd_pct": 7.76,
+      "max_dd_pct": 6.6,
+      "pf": 1.69,
+      "profit": 413.24,
+      "return_per_dd": 53.25257731958763,
+      "trades": 364
+    }
+  },
+  "params": {
+    "displacement_body_atr": 0.45,
+    "displacement_body_ratio": 0.5,
+    "equal_tolerance_pips": 20.0,
+    "fvg_max_formation_bars": 10,
+    "fvg_max_wait_bars": 128,
+    "market_close_minute_of_week": 7195,
+    "max_bars_in_trade": 32,
+    "max_displacement_bars": 19,
+    "max_overshoot_atr": 2.5,
+    "min_fvg_size_atr": 0.06,
+    "min_overshoot_atr": 0.1,
+    "no_new_trade_before_close_minutes": 240,
+    "retest_tolerance_pips": 0.0,
+    "sl_buffer_atr": 0.14,
+    "swing_lookback": 12,
+    "target_rr": 2.0,
+    "trail_activation_pips": 45.0,
+    "trail_distance_pips": 30.0
+  },
+  "user_requested_sha_note": "9f177a49 is CleanCoreV1 locally; actual CleanCoreV2A hash is reported above.",
+  "windows": {
+    "heldout_2026_jun21_sensitivity": {
+      "primary": {
+        "block_len": 288,
+        "n_sims": 50,
+        "observed": {
+          "max_dd_pct": 6.3757724103784925,
+          "pf": 3.230096177089038,
+          "profit": 899.3473421535538,
+          "reason_counts": {
+            "max_bars": 1,
+            "sl": 7,
+            "tp": 2,
+            "trail": 41
+          },
+          "return_per_dd": 141.05700208018635,
+          "trades": 51,
+          "win_rate_pct": 84.31372549019608
+        },
+        "profit_null": {
+          "empirical_p_ge_observed": 0.45098039215686275,
+          "max": 1665.2197669203008,
+          "mean": 902.4340552567734,
+          "median": 864.0463915610849,
+          "p025": 379.60901387252403,
+          "p975": 1542.3707309037186
+        },
+        "return_per_dd_null": {
+          "empirical_p_ge_observed": 0.45098039215686275,
+          "max": 1463.9825564554528,
+          "mean": 196.57668255699446,
+          "median": 98.91295417862693,
+          "p025": 25.282985790059456,
+          "p975": 692.5390838431078
+        },
+        "seed": 2812
+      },
+      "sensitivity_block_144": {
+        "block_len": 144,
+        "n_sims": 20,
+        "observed": {
+          "max_dd_pct": 6.3757724103784925,
+          "pf": 3.230096177089038,
+          "profit": 899.3473421535538,
+          "reason_counts": {
+            "max_bars": 1,
+            "sl": 7,
+            "tp": 2,
+            "trail": 41
+          },
+          "return_per_dd": 141.05700208018635,
+          "trades": 51,
+          "win_rate_pct": 84.31372549019608
+        },
+        "profit_null": {
+          "empirical_p_ge_observed": 0.42857142857142855,
+          "max": 1645.0155181200048,
+          "mean": 887.0237957695302,
+          "median": 874.0760221129198,
+          "p025": 154.08240914420435,
+          "p975": 1502.1759495087967
+        },
+        "return_per_dd_null": {
+          "empirical_p_ge_observed": 0.38095238095238093,
+          "max": 334.41866776093445,
+          "mean": 117.8163056576922,
+          "median": 115.78302887782297,
+          "p025": 7.695097456852462,
+          "p975": 281.3267451647099
+        },
+        "seed": 2956
+      },
+      "sensitivity_block_576": {
+        "block_len": 576,
+        "n_sims": 20,
+        "observed": {
+          "max_dd_pct": 6.3757724103784925,
+          "pf": 3.230096177089038,
+          "profit": 899.3473421535538,
+          "reason_counts": {
+            "max_bars": 1,
+            "sl": 7,
+            "tp": 2,
+            "trail": 41
+          },
+          "return_per_dd": 141.05700208018635,
+          "trades": 51,
+          "win_rate_pct": 84.31372549019608
+        },
+        "profit_null": {
+          "empirical_p_ge_observed": 0.3333333333333333,
+          "max": 1151.5692723887855,
+          "mean": 725.904639148917,
+          "median": 787.014509366421,
+          "p025": 182.29848374697224,
+          "p975": 1131.3238631579077
+        },
+        "return_per_dd_null": {
+          "empirical_p_ge_observed": 0.23809523809523808,
+          "max": 237.14225355754053,
+          "mean": 90.9442563615302,
+          "median": 85.67333758348295,
+          "p025": 9.369679457109875,
+          "p975": 215.0693981989092
+        },
+        "seed": 3388
+      }
+    },
+    "train_2024_2025": {
+      "primary": {
+        "block_len": 288,
+        "n_sims": 200,
+        "observed": {
+          "max_dd_pct": 9.353000628121313,
+          "pf": 1.8382097691087482,
+          "profit": 1209.3795038784986,
+          "reason_counts": {
+            "max_bars": 8,
+            "sl": 82,
+            "tp": 3,
+            "trail": 285
+          },
+          "return_per_dd": 129.30390491392708,
+          "trades": 378,
+          "win_rate_pct": 80.42328042328042
+        },
+        "profit_null": {
+          "empirical_p_ge_observed": 0.6567164179104478,
+          "max": 2261.4680744176867,
+          "mean": 1343.407793566616,
+          "median": 1334.2398609821541,
+          "p025": 811.0997742933481,
+          "p975": 1965.6772228377358
+        },
+        "return_per_dd_null": {
+          "empirical_p_ge_observed": 0.835820895522388,
+          "max": 780.2503412131413,
+          "mean": 218.53015494383945,
+          "median": 197.87653857570882,
+          "p025": 76.16978901483365,
+          "p975": 493.5125230917741
+        },
+        "seed": 2812
+      },
+      "sensitivity_block_144": {
+        "block_len": 144,
+        "n_sims": 20,
+        "observed": {
+          "max_dd_pct": 9.353000628121313,
+          "pf": 1.8382097691087482,
+          "profit": 1209.3795038784986,
+          "reason_counts": {
+            "max_bars": 8,
+            "sl": 82,
+            "tp": 3,
+            "trail": 285
+          },
+          "return_per_dd": 129.30390491392708,
+          "trades": 378,
+          "win_rate_pct": 80.42328042328042
+        },
+        "profit_null": {
+          "empirical_p_ge_observed": 0.6666666666666666,
+          "max": 2168.244003072837,
+          "mean": 1380.6681741821012,
+          "median": 1365.9036518074604,
+          "p025": 864.8280986411207,
+          "p975": 2031.9080357134912
+        },
+        "return_per_dd_null": {
+          "empirical_p_ge_observed": 0.9047619047619048,
+          "max": 669.9794550863359,
+          "mean": 225.91512739286372,
+          "median": 210.7615682909226,
+          "p025": 87.45892363879261,
+          "p975": 507.4251270896903
+        },
+        "seed": 2956
+      },
+      "sensitivity_block_576": {
+        "block_len": 576,
+        "n_sims": 20,
+        "observed": {
+          "max_dd_pct": 9.353000628121313,
+          "pf": 1.8382097691087482,
+          "profit": 1209.3795038784986,
+          "reason_counts": {
+            "max_bars": 8,
+            "sl": 82,
+            "tp": 3,
+            "trail": 285
+          },
+          "return_per_dd": 129.30390491392708,
+          "trades": 378,
+          "win_rate_pct": 80.42328042328042
+        },
+        "profit_null": {
+          "empirical_p_ge_observed": 0.42857142857142855,
+          "max": 1599.2510818170867,
+          "mean": 1156.3900662963135,
+          "median": 1184.8153771661941,
+          "p025": 750.6879962823341,
+          "p975": 1513.545892332014
+        },
+        "return_per_dd_null": {
+          "empirical_p_ge_observed": 0.5238095238095238,
+          "max": 281.7716065601373,
+          "mean": 142.49349912631902,
+          "median": 135.4841414191095,
+          "p025": 60.99647665580566,
+          "p975": 259.16897485552755
+        },
+        "seed": 3388
+      }
+    }
+  }
+}

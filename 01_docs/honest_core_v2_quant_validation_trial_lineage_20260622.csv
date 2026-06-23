@@ -1,0 +1,7 @@
+experiment_id,parent,code_hash,config_set,date_logged,historical_period_examined,selection_objective,influenced_later_experiments,IS_period,OOS_period,OOS_later_reused_for_dev,notes
+exp1801,exp1800,not_tracked(EA file May29),~1372 consts,2026-05-29,2017-2026 incl 2026RT,current-margin repair + rocket/stress pass on 2017-2026 & 2026RT,yes (production baseline),2017-2026 (incl 2026),June2026 (post-deploy),unknown,2026 in acceptance grid -> 2026 partly in-sample
+exp2688,exp2640,d6add9cf...,s0175_m150,2026-06-18,2024-2025 train,train-select 2024-25 return-per-DD,yes,2024-2025,both 2026 RT windows,partially (2026 viewed across many exps),de-memorized baseline + RR tilt
+R300,exp2688,bdfe8705...,clamp-bypass +3x risk,2026-06-21,2024-2025 + 2026,deploy-robustness,yes,2024-2025,2026 RT,yes,leverage variant
+exp2800,CleanCoreV2A,67bdf0f6... (V2A; 9f177a49=V1 corrected),20 trail/struct configs,2026-06-22,2024-2025 train only,return-per-DD (selection grid),yes (selected d3/a45 -> exp2801),2024-2025,none (train-only),N/A,fill-artifact selection (sub-spread trail)
+exp2802,CleanCoreV2A,67bdf0f6... (V2A; 9f177a49=V1 corrected),18 executable-exit configs,2026-06-22,2024-2025 train only,return-per-DD,yes (selected d30/a45 -> exp2804),2024-2025,none (train-only),N/A,Phase2-R re-select
+CleanCoreV2A,CleanCoreV1,67bdf0f6... (V2A; 9f177a49=V1 corrected),~22 clean inputs,2026-06-22,2024-2025 select,return-per-DD,n/a (terminal),2024-2025,both 2026 RT (exp2804),no,clean rebuild; OOS PF 0.35
